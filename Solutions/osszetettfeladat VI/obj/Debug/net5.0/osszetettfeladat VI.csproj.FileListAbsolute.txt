@@ -1,0 +1,16 @@
+C:\Users\sz2janatt\Desktop\C#\Solutions\osszetettfeladat VI\bin\Debug\net5.0\osszetettfeladat VI.exe
+C:\Users\sz2janatt\Desktop\C#\Solutions\osszetettfeladat VI\bin\Debug\net5.0\osszetettfeladat VI.deps.json
+C:\Users\sz2janatt\Desktop\C#\Solutions\osszetettfeladat VI\bin\Debug\net5.0\osszetettfeladat VI.runtimeconfig.json
+C:\Users\sz2janatt\Desktop\C#\Solutions\osszetettfeladat VI\bin\Debug\net5.0\osszetettfeladat VI.runtimeconfig.dev.json
+C:\Users\sz2janatt\Desktop\C#\Solutions\osszetettfeladat VI\bin\Debug\net5.0\osszetettfeladat VI.dll
+C:\Users\sz2janatt\Desktop\C#\Solutions\osszetettfeladat VI\bin\Debug\net5.0\ref\osszetettfeladat VI.dll
+C:\Users\sz2janatt\Desktop\C#\Solutions\osszetettfeladat VI\bin\Debug\net5.0\osszetettfeladat VI.pdb
+C:\Users\sz2janatt\Desktop\C#\Solutions\osszetettfeladat VI\obj\Debug\net5.0\osszetettfeladat VI.csproj.AssemblyReference.cache
+C:\Users\sz2janatt\Desktop\C#\Solutions\osszetettfeladat VI\obj\Debug\net5.0\osszetettfeladat VI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sz2janatt\Desktop\C#\Solutions\osszetettfeladat VI\obj\Debug\net5.0\osszetettfeladat VI.AssemblyInfoInputs.cache
+C:\Users\sz2janatt\Desktop\C#\Solutions\osszetettfeladat VI\obj\Debug\net5.0\osszetettfeladat VI.AssemblyInfo.cs
+C:\Users\sz2janatt\Desktop\C#\Solutions\osszetettfeladat VI\obj\Debug\net5.0\osszetettfeladat VI.csproj.CoreCompileInputs.cache
+C:\Users\sz2janatt\Desktop\C#\Solutions\osszetettfeladat VI\obj\Debug\net5.0\osszetettfeladat VI.dll
+C:\Users\sz2janatt\Desktop\C#\Solutions\osszetettfeladat VI\obj\Debug\net5.0\ref\osszetettfeladat VI.dll
+C:\Users\sz2janatt\Desktop\C#\Solutions\osszetettfeladat VI\obj\Debug\net5.0\osszetettfeladat VI.pdb
+C:\Users\sz2janatt\Desktop\C#\Solutions\osszetettfeladat VI\obj\Debug\net5.0\osszetettfeladat VI.genruntimeconfig.cache

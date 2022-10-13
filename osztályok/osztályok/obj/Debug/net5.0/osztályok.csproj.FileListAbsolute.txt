@@ -1,0 +1,32 @@
+C:\Users\attil\OneDrive\Asztali gép\osztályok\osztályok\bin\Debug\net5.0\osztályok.exe
+C:\Users\attil\OneDrive\Asztali gép\osztályok\osztályok\bin\Debug\net5.0\osztályok.deps.json
+C:\Users\attil\OneDrive\Asztali gép\osztályok\osztályok\bin\Debug\net5.0\osztályok.runtimeconfig.json
+C:\Users\attil\OneDrive\Asztali gép\osztályok\osztályok\bin\Debug\net5.0\osztályok.runtimeconfig.dev.json
+C:\Users\attil\OneDrive\Asztali gép\osztályok\osztályok\bin\Debug\net5.0\osztályok.dll
+C:\Users\attil\OneDrive\Asztali gép\osztályok\osztályok\bin\Debug\net5.0\ref\osztályok.dll
+C:\Users\attil\OneDrive\Asztali gép\osztályok\osztályok\bin\Debug\net5.0\osztályok.pdb
+C:\Users\attil\OneDrive\Asztali gép\osztályok\osztályok\obj\Debug\net5.0\osztályok.csproj.AssemblyReference.cache
+C:\Users\attil\OneDrive\Asztali gép\osztályok\osztályok\obj\Debug\net5.0\osztályok.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\attil\OneDrive\Asztali gép\osztályok\osztályok\obj\Debug\net5.0\osztályok.AssemblyInfoInputs.cache
+C:\Users\attil\OneDrive\Asztali gép\osztályok\osztályok\obj\Debug\net5.0\osztályok.AssemblyInfo.cs
+C:\Users\attil\OneDrive\Asztali gép\osztályok\osztályok\obj\Debug\net5.0\osztályok.csproj.CoreCompileInputs.cache
+C:\Users\attil\OneDrive\Asztali gép\osztályok\osztályok\obj\Debug\net5.0\osztályok.dll
+C:\Users\attil\OneDrive\Asztali gép\osztályok\osztályok\obj\Debug\net5.0\ref\osztályok.dll
+C:\Users\attil\OneDrive\Asztali gép\osztályok\osztályok\obj\Debug\net5.0\osztályok.pdb
+C:\Users\attil\OneDrive\Asztali gép\osztályok\osztályok\obj\Debug\net5.0\osztályok.genruntimeconfig.cache
+C:\Users\sz2janatt\Desktop\osztályok\osztályok\bin\Debug\net5.0\osztályok.exe
+C:\Users\sz2janatt\Desktop\osztályok\osztályok\bin\Debug\net5.0\osztályok.deps.json
+C:\Users\sz2janatt\Desktop\osztályok\osztályok\bin\Debug\net5.0\osztályok.runtimeconfig.json
+C:\Users\sz2janatt\Desktop\osztályok\osztályok\bin\Debug\net5.0\osztályok.runtimeconfig.dev.json
+C:\Users\sz2janatt\Desktop\osztályok\osztályok\bin\Debug\net5.0\osztályok.dll
+C:\Users\sz2janatt\Desktop\osztályok\osztályok\bin\Debug\net5.0\ref\osztályok.dll
+C:\Users\sz2janatt\Desktop\osztályok\osztályok\bin\Debug\net5.0\osztályok.pdb
+C:\Users\sz2janatt\Desktop\osztályok\osztályok\obj\Debug\net5.0\osztályok.csproj.AssemblyReference.cache
+C:\Users\sz2janatt\Desktop\osztályok\osztályok\obj\Debug\net5.0\osztályok.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sz2janatt\Desktop\osztályok\osztályok\obj\Debug\net5.0\osztályok.AssemblyInfoInputs.cache
+C:\Users\sz2janatt\Desktop\osztályok\osztályok\obj\Debug\net5.0\osztályok.AssemblyInfo.cs
+C:\Users\sz2janatt\Desktop\osztályok\osztályok\obj\Debug\net5.0\osztályok.csproj.CoreCompileInputs.cache
+C:\Users\sz2janatt\Desktop\osztályok\osztályok\obj\Debug\net5.0\osztályok.dll
+C:\Users\sz2janatt\Desktop\osztályok\osztályok\obj\Debug\net5.0\ref\osztályok.dll
+C:\Users\sz2janatt\Desktop\osztályok\osztályok\obj\Debug\net5.0\osztályok.pdb
+C:\Users\sz2janatt\Desktop\osztályok\osztályok\obj\Debug\net5.0\osztályok.genruntimeconfig.cache

@@ -1,0 +1,15 @@
+C:\Users\sz2janatt\Desktop\C#\Solutions\Gepjarmu\bin\Debug\net5.0\Gepjarmu.exe
+C:\Users\sz2janatt\Desktop\C#\Solutions\Gepjarmu\bin\Debug\net5.0\Gepjarmu.deps.json
+C:\Users\sz2janatt\Desktop\C#\Solutions\Gepjarmu\bin\Debug\net5.0\Gepjarmu.runtimeconfig.json
+C:\Users\sz2janatt\Desktop\C#\Solutions\Gepjarmu\bin\Debug\net5.0\Gepjarmu.runtimeconfig.dev.json
+C:\Users\sz2janatt\Desktop\C#\Solutions\Gepjarmu\bin\Debug\net5.0\Gepjarmu.dll
+C:\Users\sz2janatt\Desktop\C#\Solutions\Gepjarmu\bin\Debug\net5.0\ref\Gepjarmu.dll
+C:\Users\sz2janatt\Desktop\C#\Solutions\Gepjarmu\bin\Debug\net5.0\Gepjarmu.pdb
+C:\Users\sz2janatt\Desktop\C#\Solutions\Gepjarmu\obj\Debug\net5.0\Gepjarmu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sz2janatt\Desktop\C#\Solutions\Gepjarmu\obj\Debug\net5.0\Gepjarmu.AssemblyInfoInputs.cache
+C:\Users\sz2janatt\Desktop\C#\Solutions\Gepjarmu\obj\Debug\net5.0\Gepjarmu.AssemblyInfo.cs
+C:\Users\sz2janatt\Desktop\C#\Solutions\Gepjarmu\obj\Debug\net5.0\Gepjarmu.csproj.CoreCompileInputs.cache
+C:\Users\sz2janatt\Desktop\C#\Solutions\Gepjarmu\obj\Debug\net5.0\Gepjarmu.dll
+C:\Users\sz2janatt\Desktop\C#\Solutions\Gepjarmu\obj\Debug\net5.0\ref\Gepjarmu.dll
+C:\Users\sz2janatt\Desktop\C#\Solutions\Gepjarmu\obj\Debug\net5.0\Gepjarmu.pdb
+C:\Users\sz2janatt\Desktop\C#\Solutions\Gepjarmu\obj\Debug\net5.0\Gepjarmu.genruntimeconfig.cache

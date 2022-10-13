@@ -1,0 +1,16 @@
+C:\Users\sz2janatt\Desktop\C#\Solutions\motorkerékpár\obj\Debug\net5.0\motorkerékpár.csproj.AssemblyReference.cache
+C:\Users\sz2janatt\Desktop\C#\Solutions\motorkerékpár\obj\Debug\net5.0\motorkerékpár.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sz2janatt\Desktop\C#\Solutions\motorkerékpár\obj\Debug\net5.0\motorkerékpár.AssemblyInfoInputs.cache
+C:\Users\sz2janatt\Desktop\C#\Solutions\motorkerékpár\obj\Debug\net5.0\motorkerékpár.AssemblyInfo.cs
+C:\Users\sz2janatt\Desktop\C#\Solutions\motorkerékpár\obj\Debug\net5.0\motorkerékpár.csproj.CoreCompileInputs.cache
+C:\Users\sz2janatt\Desktop\C#\Solutions\motorkerékpár\bin\Debug\net5.0\motorkerékpár.exe
+C:\Users\sz2janatt\Desktop\C#\Solutions\motorkerékpár\bin\Debug\net5.0\motorkerékpár.deps.json
+C:\Users\sz2janatt\Desktop\C#\Solutions\motorkerékpár\bin\Debug\net5.0\motorkerékpár.runtimeconfig.json
+C:\Users\sz2janatt\Desktop\C#\Solutions\motorkerékpár\bin\Debug\net5.0\motorkerékpár.runtimeconfig.dev.json
+C:\Users\sz2janatt\Desktop\C#\Solutions\motorkerékpár\bin\Debug\net5.0\motorkerékpár.dll
+C:\Users\sz2janatt\Desktop\C#\Solutions\motorkerékpár\bin\Debug\net5.0\ref\motorkerékpár.dll
+C:\Users\sz2janatt\Desktop\C#\Solutions\motorkerékpár\bin\Debug\net5.0\motorkerékpár.pdb
+C:\Users\sz2janatt\Desktop\C#\Solutions\motorkerékpár\obj\Debug\net5.0\motorkerékpár.dll
+C:\Users\sz2janatt\Desktop\C#\Solutions\motorkerékpár\obj\Debug\net5.0\ref\motorkerékpár.dll
+C:\Users\sz2janatt\Desktop\C#\Solutions\motorkerékpár\obj\Debug\net5.0\motorkerékpár.pdb
+C:\Users\sz2janatt\Desktop\C#\Solutions\motorkerékpár\obj\Debug\net5.0\motorkerékpár.genruntimeconfig.cache

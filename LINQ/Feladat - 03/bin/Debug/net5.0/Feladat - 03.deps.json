@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Feladat - 03/1.0.0": {
+        "runtime": {
+          "Feladat - 03.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Feladat - 03/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

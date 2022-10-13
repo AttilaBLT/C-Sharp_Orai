@@ -1,0 +1,15 @@
+C:\Users\sz2janatt\Desktop\C#\Solutions\sikidomok\bin\Debug\net5.0\sikidomok.exe
+C:\Users\sz2janatt\Desktop\C#\Solutions\sikidomok\bin\Debug\net5.0\sikidomok.deps.json
+C:\Users\sz2janatt\Desktop\C#\Solutions\sikidomok\bin\Debug\net5.0\sikidomok.runtimeconfig.json
+C:\Users\sz2janatt\Desktop\C#\Solutions\sikidomok\bin\Debug\net5.0\sikidomok.runtimeconfig.dev.json
+C:\Users\sz2janatt\Desktop\C#\Solutions\sikidomok\bin\Debug\net5.0\sikidomok.dll
+C:\Users\sz2janatt\Desktop\C#\Solutions\sikidomok\bin\Debug\net5.0\ref\sikidomok.dll
+C:\Users\sz2janatt\Desktop\C#\Solutions\sikidomok\bin\Debug\net5.0\sikidomok.pdb
+C:\Users\sz2janatt\Desktop\C#\Solutions\sikidomok\obj\Debug\net5.0\sikidomok.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sz2janatt\Desktop\C#\Solutions\sikidomok\obj\Debug\net5.0\sikidomok.AssemblyInfoInputs.cache
+C:\Users\sz2janatt\Desktop\C#\Solutions\sikidomok\obj\Debug\net5.0\sikidomok.AssemblyInfo.cs
+C:\Users\sz2janatt\Desktop\C#\Solutions\sikidomok\obj\Debug\net5.0\sikidomok.csproj.CoreCompileInputs.cache
+C:\Users\sz2janatt\Desktop\C#\Solutions\sikidomok\obj\Debug\net5.0\sikidomok.dll
+C:\Users\sz2janatt\Desktop\C#\Solutions\sikidomok\obj\Debug\net5.0\ref\sikidomok.dll
+C:\Users\sz2janatt\Desktop\C#\Solutions\sikidomok\obj\Debug\net5.0\sikidomok.pdb
+C:\Users\sz2janatt\Desktop\C#\Solutions\sikidomok\obj\Debug\net5.0\sikidomok.genruntimeconfig.cache

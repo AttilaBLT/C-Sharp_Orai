@@ -1,0 +1,16 @@
+C:\Users\sz2janatt\Desktop\C#\Solutions\dowhile1\bin\Debug\net5.0\dowhile1.exe
+C:\Users\sz2janatt\Desktop\C#\Solutions\dowhile1\bin\Debug\net5.0\dowhile1.deps.json
+C:\Users\sz2janatt\Desktop\C#\Solutions\dowhile1\bin\Debug\net5.0\dowhile1.runtimeconfig.json
+C:\Users\sz2janatt\Desktop\C#\Solutions\dowhile1\bin\Debug\net5.0\dowhile1.runtimeconfig.dev.json
+C:\Users\sz2janatt\Desktop\C#\Solutions\dowhile1\bin\Debug\net5.0\dowhile1.dll
+C:\Users\sz2janatt\Desktop\C#\Solutions\dowhile1\bin\Debug\net5.0\ref\dowhile1.dll
+C:\Users\sz2janatt\Desktop\C#\Solutions\dowhile1\bin\Debug\net5.0\dowhile1.pdb
+C:\Users\sz2janatt\Desktop\C#\Solutions\dowhile1\obj\Debug\net5.0\dowhile1.csproj.AssemblyReference.cache
+C:\Users\sz2janatt\Desktop\C#\Solutions\dowhile1\obj\Debug\net5.0\dowhile1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sz2janatt\Desktop\C#\Solutions\dowhile1\obj\Debug\net5.0\dowhile1.AssemblyInfoInputs.cache
+C:\Users\sz2janatt\Desktop\C#\Solutions\dowhile1\obj\Debug\net5.0\dowhile1.AssemblyInfo.cs
+C:\Users\sz2janatt\Desktop\C#\Solutions\dowhile1\obj\Debug\net5.0\dowhile1.csproj.CoreCompileInputs.cache
+C:\Users\sz2janatt\Desktop\C#\Solutions\dowhile1\obj\Debug\net5.0\dowhile1.dll
+C:\Users\sz2janatt\Desktop\C#\Solutions\dowhile1\obj\Debug\net5.0\ref\dowhile1.dll
+C:\Users\sz2janatt\Desktop\C#\Solutions\dowhile1\obj\Debug\net5.0\dowhile1.pdb
+C:\Users\sz2janatt\Desktop\C#\Solutions\dowhile1\obj\Debug\net5.0\dowhile1.genruntimeconfig.cache

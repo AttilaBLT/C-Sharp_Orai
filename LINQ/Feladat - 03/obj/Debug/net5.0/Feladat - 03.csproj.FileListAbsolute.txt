@@ -1,0 +1,17 @@
+D:\Temp\Feladat - 03\bin\Debug\net5.0\Feladat - 03.exe
+D:\Temp\Feladat - 03\bin\Debug\net5.0\data.json
+D:\Temp\Feladat - 03\bin\Debug\net5.0\Feladat - 03.deps.json
+D:\Temp\Feladat - 03\bin\Debug\net5.0\Feladat - 03.runtimeconfig.json
+D:\Temp\Feladat - 03\bin\Debug\net5.0\Feladat - 03.runtimeconfig.dev.json
+D:\Temp\Feladat - 03\bin\Debug\net5.0\Feladat - 03.dll
+D:\Temp\Feladat - 03\bin\Debug\net5.0\Feladat - 03.pdb
+D:\Temp\Feladat - 03\obj\Debug\net5.0\Feladat - 03.csproj.AssemblyReference.cache
+D:\Temp\Feladat - 03\obj\Debug\net5.0\Feladat - 03.GeneratedMSBuildEditorConfig.editorconfig
+D:\Temp\Feladat - 03\obj\Debug\net5.0\Feladat - 03.AssemblyInfoInputs.cache
+D:\Temp\Feladat - 03\obj\Debug\net5.0\Feladat - 03.AssemblyInfo.cs
+D:\Temp\Feladat - 03\obj\Debug\net5.0\Feladat - 03.csproj.CoreCompileInputs.cache
+D:\Temp\Feladat - 03\obj\Debug\net5.0\Feladat - 03.dll
+D:\Temp\Feladat - 03\obj\Debug\net5.0\refint\Feladat - 03.dll
+D:\Temp\Feladat - 03\obj\Debug\net5.0\Feladat - 03.pdb
+D:\Temp\Feladat - 03\obj\Debug\net5.0\Feladat - 03.genruntimeconfig.cache
+D:\Temp\Feladat - 03\obj\Debug\net5.0\ref\Feladat - 03.dll

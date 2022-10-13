@@ -1,0 +1,6 @@
+C:\Users\sz2janatt\Desktop\C#\Solutions\Feladat2\bin\Debug\Feladat2.exe.config
+C:\Users\sz2janatt\Desktop\C#\Solutions\Feladat2\bin\Debug\Feladat2.exe
+C:\Users\sz2janatt\Desktop\C#\Solutions\Feladat2\bin\Debug\Feladat2.pdb
+C:\Users\sz2janatt\Desktop\C#\Solutions\Feladat2\obj\Debug\Feladat2.csproj.CoreCompileInputs.cache
+C:\Users\sz2janatt\Desktop\C#\Solutions\Feladat2\obj\Debug\Feladat2.exe
+C:\Users\sz2janatt\Desktop\C#\Solutions\Feladat2\obj\Debug\Feladat2.pdb

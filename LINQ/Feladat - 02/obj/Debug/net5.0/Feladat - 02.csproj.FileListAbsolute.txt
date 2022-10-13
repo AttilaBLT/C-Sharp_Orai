@@ -1,0 +1,19 @@
+d:\Temp\Feladat - 02\bin\Debug\net5.0\Game.cs
+d:\Temp\Feladat - 02\bin\Debug\net5.0\Feladat - 02.exe
+d:\Temp\Feladat - 02\bin\Debug\net5.0\Feladat - 02.deps.json
+d:\Temp\Feladat - 02\bin\Debug\net5.0\Feladat - 02.runtimeconfig.json
+d:\Temp\Feladat - 02\bin\Debug\net5.0\Feladat - 02.runtimeconfig.dev.json
+d:\Temp\Feladat - 02\bin\Debug\net5.0\Feladat - 02.dll
+d:\Temp\Feladat - 02\bin\Debug\net5.0\Feladat - 02.pdb
+d:\Temp\Feladat - 02\bin\Debug\net5.0\Newtonsoft.Json.dll
+d:\Temp\Feladat - 02\obj\Debug\net5.0\Feladat - 02.csproj.AssemblyReference.cache
+d:\Temp\Feladat - 02\obj\Debug\net5.0\Feladat - 02.GeneratedMSBuildEditorConfig.editorconfig
+d:\Temp\Feladat - 02\obj\Debug\net5.0\Feladat - 02.AssemblyInfoInputs.cache
+d:\Temp\Feladat - 02\obj\Debug\net5.0\Feladat - 02.AssemblyInfo.cs
+d:\Temp\Feladat - 02\obj\Debug\net5.0\Feladat - 02.csproj.CoreCompileInputs.cache
+d:\Temp\Feladat - 02\obj\Debug\net5.0\Feladat - 02.csproj.CopyComplete
+d:\Temp\Feladat - 02\obj\Debug\net5.0\Feladat - 02.dll
+d:\Temp\Feladat - 02\obj\Debug\net5.0\refint\Feladat - 02.dll
+d:\Temp\Feladat - 02\obj\Debug\net5.0\Feladat - 02.pdb
+d:\Temp\Feladat - 02\obj\Debug\net5.0\Feladat - 02.genruntimeconfig.cache
+d:\Temp\Feladat - 02\obj\Debug\net5.0\ref\Feladat - 02.dll

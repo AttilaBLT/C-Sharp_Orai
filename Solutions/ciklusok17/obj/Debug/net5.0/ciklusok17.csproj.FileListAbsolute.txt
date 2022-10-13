@@ -1,0 +1,16 @@
+C:\Users\sz2janatt\Desktop\C#\Solutions\ciklusok17\bin\Debug\net5.0\ciklusok17.exe
+C:\Users\sz2janatt\Desktop\C#\Solutions\ciklusok17\bin\Debug\net5.0\ciklusok17.deps.json
+C:\Users\sz2janatt\Desktop\C#\Solutions\ciklusok17\bin\Debug\net5.0\ciklusok17.runtimeconfig.json
+C:\Users\sz2janatt\Desktop\C#\Solutions\ciklusok17\bin\Debug\net5.0\ciklusok17.runtimeconfig.dev.json
+C:\Users\sz2janatt\Desktop\C#\Solutions\ciklusok17\bin\Debug\net5.0\ciklusok17.dll
+C:\Users\sz2janatt\Desktop\C#\Solutions\ciklusok17\bin\Debug\net5.0\ref\ciklusok17.dll
+C:\Users\sz2janatt\Desktop\C#\Solutions\ciklusok17\bin\Debug\net5.0\ciklusok17.pdb
+C:\Users\sz2janatt\Desktop\C#\Solutions\ciklusok17\obj\Debug\net5.0\ciklusok17.csproj.AssemblyReference.cache
+C:\Users\sz2janatt\Desktop\C#\Solutions\ciklusok17\obj\Debug\net5.0\ciklusok17.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sz2janatt\Desktop\C#\Solutions\ciklusok17\obj\Debug\net5.0\ciklusok17.AssemblyInfoInputs.cache
+C:\Users\sz2janatt\Desktop\C#\Solutions\ciklusok17\obj\Debug\net5.0\ciklusok17.AssemblyInfo.cs
+C:\Users\sz2janatt\Desktop\C#\Solutions\ciklusok17\obj\Debug\net5.0\ciklusok17.csproj.CoreCompileInputs.cache
+C:\Users\sz2janatt\Desktop\C#\Solutions\ciklusok17\obj\Debug\net5.0\ciklusok17.dll
+C:\Users\sz2janatt\Desktop\C#\Solutions\ciklusok17\obj\Debug\net5.0\ref\ciklusok17.dll
+C:\Users\sz2janatt\Desktop\C#\Solutions\ciklusok17\obj\Debug\net5.0\ciklusok17.pdb
+C:\Users\sz2janatt\Desktop\C#\Solutions\ciklusok17\obj\Debug\net5.0\ciklusok17.genruntimeconfig.cache
