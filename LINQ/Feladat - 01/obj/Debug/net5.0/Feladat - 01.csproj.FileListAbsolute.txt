@@ -36,3 +36,22 @@ C:\Users\sz2janatt\Desktop\LINQ\Feladat - 01\obj\Debug\net5.0\Feladat - 01.dll
 C:\Users\sz2janatt\Desktop\LINQ\Feladat - 01\obj\Debug\net5.0\ref\Feladat - 01.dll
 C:\Users\sz2janatt\Desktop\LINQ\Feladat - 01\obj\Debug\net5.0\Feladat - 01.pdb
 C:\Users\sz2janatt\Desktop\LINQ\Feladat - 01\obj\Debug\net5.0\Feladat - 01.genruntimeconfig.cache
+C:\Users\sz2janatt\Desktop\C#\LINQ\Feladat - 01\bin\Debug\net5.0\Player.cs
+C:\Users\sz2janatt\Desktop\C#\LINQ\Feladat - 01\bin\Debug\net5.0\Feladat - 01.exe
+C:\Users\sz2janatt\Desktop\C#\LINQ\Feladat - 01\bin\Debug\net5.0\Feladat - 01.deps.json
+C:\Users\sz2janatt\Desktop\C#\LINQ\Feladat - 01\bin\Debug\net5.0\Feladat - 01.runtimeconfig.json
+C:\Users\sz2janatt\Desktop\C#\LINQ\Feladat - 01\bin\Debug\net5.0\Feladat - 01.runtimeconfig.dev.json
+C:\Users\sz2janatt\Desktop\C#\LINQ\Feladat - 01\bin\Debug\net5.0\Feladat - 01.dll
+C:\Users\sz2janatt\Desktop\C#\LINQ\Feladat - 01\bin\Debug\net5.0\ref\Feladat - 01.dll
+C:\Users\sz2janatt\Desktop\C#\LINQ\Feladat - 01\bin\Debug\net5.0\Feladat - 01.pdb
+C:\Users\sz2janatt\Desktop\C#\LINQ\Feladat - 01\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\sz2janatt\Desktop\C#\LINQ\Feladat - 01\obj\Debug\net5.0\Feladat - 01.csprojAssemblyReference.cache
+C:\Users\sz2janatt\Desktop\C#\LINQ\Feladat - 01\obj\Debug\net5.0\Feladat - 01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sz2janatt\Desktop\C#\LINQ\Feladat - 01\obj\Debug\net5.0\Feladat - 01.AssemblyInfoInputs.cache
+C:\Users\sz2janatt\Desktop\C#\LINQ\Feladat - 01\obj\Debug\net5.0\Feladat - 01.AssemblyInfo.cs
+C:\Users\sz2janatt\Desktop\C#\LINQ\Feladat - 01\obj\Debug\net5.0\Feladat - 01.csproj.CoreCompileInputs.cache
+C:\Users\sz2janatt\Desktop\C#\LINQ\Feladat - 01\obj\Debug\net5.0\Feladat - 01.csproj.CopyComplete
+C:\Users\sz2janatt\Desktop\C#\LINQ\Feladat - 01\obj\Debug\net5.0\Feladat - 01.dll
+C:\Users\sz2janatt\Desktop\C#\LINQ\Feladat - 01\obj\Debug\net5.0\ref\Feladat - 01.dll
+C:\Users\sz2janatt\Desktop\C#\LINQ\Feladat - 01\obj\Debug\net5.0\Feladat - 01.pdb
+C:\Users\sz2janatt\Desktop\C#\LINQ\Feladat - 01\obj\Debug\net5.0\Feladat - 01.genruntimeconfig.cache

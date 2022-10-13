@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jkBPC/NkH+pFI7IGeLqduUovNnaSA5CiV7lbLXBJsjuYQKPvLq8fK5/EQaGosqCotSubUsMcHJ0sDqi/HePc3A==",
+  "dgSpecHash": "JUBT5NWRIo9bhk/jQwqc35HWFpZvNqX0vfVzid5iTq/TadzWDl7j8tiDWgMC7SeBW9I7V1KcBXg8UObcwUM0ZA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sz2janatt\\Desktop\\LINQ\\Feladat - 04\\Feladat - 04.csproj",
+  "projectFilePath": "C:\\Users\\sz2janatt\\Desktop\\C#\\LINQ\\Feladat - 04\\Feladat - 04.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sz2janatt\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
