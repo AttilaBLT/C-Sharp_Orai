@@ -4,6 +4,7 @@ using System.IO;
 using System.Text;
 using System.Text.Json;
 using System.Text.Json.Serialization;
+using System.Linq;
 
 namespace Feladat___03
 {
@@ -56,10 +57,10 @@ namespace Feladat___03
 
 
             // 6 - Van-e 'Honda' gyártmányú motorkerképár az 'adatbázisban' melynek beceneve 'Hornet' ?
-
+            bool isAnyHonda = _motorcycles.Any(motor => motor.Nickname.ToLower() == "Hornet");
 
             // 7 - Keressük ki a 'Yamaha' gyártmányú motorkerékpárokat!
-
+            List<Motorcycle> yamahabikes = _motorcycles.Where(motor => motor.Brand.ToLower() == "yamaha").ToList();
 
             // 8 -Keressük a 'Suzuki' gyártotmányú motorkerékpárokat melyek 600ccm felett vannak!
 
