@@ -42,7 +42,7 @@ namespace Feladat___03
             WriteToConsole("Data", _motorcycles);
 
             // 1 - Hány motorkerékpár van az 'adatbázisban' ?
-
+            
 
             // 2 - Hány 'Honda' gyártmányú motorkerékpár van az 'adatbázisban' ?
 
