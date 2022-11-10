@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sz2janatt\\Desktop\\IO\\Feladat_01\\Feladat_01.csproj",
+      "projectUniqueName": "C:\\Users\\sz2janatt\\Desktop\\c#\\C-Sharp_Orai\\IO\\Feladat_01\\Feladat_01.csproj",
       "projectName": "Feladat_01",
-      "projectPath": "C:\\Users\\sz2janatt\\Desktop\\IO\\Feladat_01\\Feladat_01.csproj",
+      "projectPath": "C:\\Users\\sz2janatt\\Desktop\\c#\\C-Sharp_Orai\\IO\\Feladat_01\\Feladat_01.csproj",
       "packagesPath": "C:\\Users\\sz2janatt\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sz2janatt\\Desktop\\IO\\Feladat_01\\obj\\",
+      "outputPath": "C:\\Users\\sz2janatt\\Desktop\\c#\\C-Sharp_Orai\\IO\\Feladat_01\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

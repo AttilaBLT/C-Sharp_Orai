@@ -18,6 +18,31 @@ PrintToScreen2(bestStudents);
 
 //5 - atlagfelett.txt allományba keressük ki azon tanulókat kiknek pontjai meghaladják az átlagot!
 bool sucess = AboveAvarageToFile(avarage);
+Console.WriteLine($"A mentés {(sucess?"sikeres":"nem volt sikeres")}.");
+
+//6 - Van e kitünő tanulónk?
+bool isAnyExcelentStudent = students.Any(x => x.Avarage == 5);
+Console.WriteLine($"{(isAnyExcelentStudent ? "Van": "Nincs")} kitűnő diák.");
+
+//7 - Hány elégtelen, elégséges, jó, jeles és kitünő tanuló van az osztályban?
+//  Értékhatárok:
+//-elégtelen, ha: 0.00 - 1.99
+//- elégséges, ha: 2.00 - 2.99
+//- jó, ha: 3.00 - 3.99
+//- jeles, ha: 4.00 - 4.99
+//- kitünő, ha: 5.00
+string[] successTypes = new string[] { "elégtelen", "elégséges", "jó", "jeles", "kitünő" };
+
+Dictionary<string, int> successRatio = new Dictionary<string, int>();
+foreach (string successType in successTypes)
+{
+    int count = students.Count(x => x.Success == successType);
+
+    successRatio.Add(successType, count);
+}
+
+PrintToScreen3(successRatio);
+
 
 Console.ReadKey();
 
@@ -62,6 +87,14 @@ void PrintToScreen2(ICollection<Student> studentsData)
     }
 }
 
+void PrintToScreen3(Dictionary<string, int> successRatios)
+{
+    foreach (KeyValuePair<string, int> successRatio in successRatios)
+    {
+        Console.WriteLine($"{successRatio.Key} : {successRatio.Value}");
+    }
+}
+
 List<Student> Best()
 {
     double bestAvarage = students.Max(x => x.Avarage);
@@ -74,21 +107,44 @@ bool AboveAvarageToFile(double avarage)
 
     string output = "./../../../_feladat_/atlagfelett.txt";
 
+
+    ////1. lehetőség
+    //try
+    //{
+    //using (FileStream fs = new FileStream(output, FileMode.Open, FileAccess.Read, FileShare.None))
+    //using (StreamWriter sw = new StreamWriter(fs, Encoding.UTF8))
+    //{
+    //    foreach(Student student in studentsAboveAvg)
+    //    {
+    //        sw.WriteLine($"{ student.Name}\t{student.Avarage}");
+    //    }
+    //}
+    //    return true;
+    //}
+    //catch(IOException ex)
+    //{
+    //    return false;
+    //}
+
+    ////2. lehetőség
     try
     {
-    using (FileStream fs = new FileStream(output, FileMode.Open, FileAccess.Read, FileShare.None))
-    using (StreamWriter sw = new StreamWriter(fs, Encoding.UTF8))
-    {
-        foreach(Student student in studentsAboveAvg)
-        {
-            sw.WriteLine($"{ student.Name}\t{student.Avarage}");
-        }
-    }
-        return true;
+        List<string> contents = new List<string>();
 
+
+        File.WriteAllLines(output, contents);
+
+        foreach (Student student in studentsAboveAvg)
+        {
+            contents.Add($"{student.Name}\t{student.Avarage}");
+        }
+        File.WriteAllLines(output, contents);
+
+            return true;
     }
-    catch(IOException ex)
+    catch (IOException ex)
     {
+
         return false;
     }
 }
