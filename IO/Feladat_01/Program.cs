@@ -1,9 +1,9 @@
 ﻿string FileName = "./../../../_feladat_/adatok.txt";
-List<Student> students = new List<Student>();
-LoadData();
+List<Student> students = LoadData();
 
 //1 - Írjuk ki minden diák adatát a képernyőre!
-PrintToScreen();
+PrintToScreen(students);
+
 //2 - Hány diák jár az osztályba?
 Console.WriteLine($"Az osztályba {students.Count} diák jár.");
 
@@ -14,7 +14,7 @@ Console.WriteLine($"Az osztál átlaga: {avarage:#.##}"); //Max 2 tizedesjegy le
 //4 - Keressük a legtöbb pontot elért érettségizőt és írjuk ki az adatait a képernyőre.
 List<Student> bestStudents = Best();
 Console.WriteLine("A legnagyob atlaggal rendelkező diák(ok): ");
-PrintToScreen2(bestStudents);
+PrintToScreen(bestStudents);
 
 //5 - atlagfelett.txt allományba keressük ki azon tanulókat kiknek pontjai meghaladják az átlagot!
 bool sucess = AboveAvarageToFile(avarage);
@@ -46,10 +46,10 @@ PrintToScreen3(successRatio);
 
 Console.ReadKey();
 
-void LoadData()
+List<Student> LoadData()
 {
     //CultureInfo cultureinfo = Thread.CurrentThread.CurrentCulture; //kultúrális területek közötti eltérés, német - magyar nem egyezik
-
+    List<Student> studentData = new List<Student>();
     using (FileStream fs = new FileStream(FileName, FileMode.Open, FileAccess.Read, FileShare.None))
         using (StreamReader sr = new StreamReader(fs, Encoding.UTF7))
         {
@@ -66,26 +66,20 @@ void LoadData()
             student.Name = data[0];
             student.Avarage = double.Parse(data[1], new CultureInfo("hu-HU"));
 
-            students.Add(student);
+            studentData.Add(student);
             }
         }
+    return studentData;
 }
 
-void PrintToScreen()
+void PrintToScreen(ICollection<Student> studentsData)
 {
-    foreach (Student student in students)
+    foreach (Student student in studentsData)
     {
         Console.WriteLine(student);
     }
 }
 
-void PrintToScreen2(ICollection<Student> studentsData)
-{
-    foreach (Student student in studentsData)
-    {
-        Console.WriteLine(bestStudents);
-    }
-}
 
 void PrintToScreen3(Dictionary<string, int> successRatios)
 {

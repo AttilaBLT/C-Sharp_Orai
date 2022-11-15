@@ -1,0 +1,15 @@
+C:\Users\sz2janatt\Desktop\c#\C-Sharp_Orai\IO\Feladat_04\bin\Debug\net6.0\Feladat_04.exe
+C:\Users\sz2janatt\Desktop\c#\C-Sharp_Orai\IO\Feladat_04\bin\Debug\net6.0\Feladat_04.deps.json
+C:\Users\sz2janatt\Desktop\c#\C-Sharp_Orai\IO\Feladat_04\bin\Debug\net6.0\Feladat_04.runtimeconfig.json
+C:\Users\sz2janatt\Desktop\c#\C-Sharp_Orai\IO\Feladat_04\bin\Debug\net6.0\Feladat_04.dll
+C:\Users\sz2janatt\Desktop\c#\C-Sharp_Orai\IO\Feladat_04\bin\Debug\net6.0\Feladat_04.pdb
+C:\Users\sz2janatt\Desktop\c#\C-Sharp_Orai\IO\Feladat_04\obj\Debug\net6.0\Feladat_04.csproj.AssemblyReference.cache
+C:\Users\sz2janatt\Desktop\c#\C-Sharp_Orai\IO\Feladat_04\obj\Debug\net6.0\Feladat_04.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sz2janatt\Desktop\c#\C-Sharp_Orai\IO\Feladat_04\obj\Debug\net6.0\Feladat_04.AssemblyInfoInputs.cache
+C:\Users\sz2janatt\Desktop\c#\C-Sharp_Orai\IO\Feladat_04\obj\Debug\net6.0\Feladat_04.AssemblyInfo.cs
+C:\Users\sz2janatt\Desktop\c#\C-Sharp_Orai\IO\Feladat_04\obj\Debug\net6.0\Feladat_04.csproj.CoreCompileInputs.cache
+C:\Users\sz2janatt\Desktop\c#\C-Sharp_Orai\IO\Feladat_04\obj\Debug\net6.0\Feladat_04.dll
+C:\Users\sz2janatt\Desktop\c#\C-Sharp_Orai\IO\Feladat_04\obj\Debug\net6.0\refint\Feladat_04.dll
+C:\Users\sz2janatt\Desktop\c#\C-Sharp_Orai\IO\Feladat_04\obj\Debug\net6.0\Feladat_04.pdb
+C:\Users\sz2janatt\Desktop\c#\C-Sharp_Orai\IO\Feladat_04\obj\Debug\net6.0\Feladat_04.genruntimeconfig.cache
+C:\Users\sz2janatt\Desktop\c#\C-Sharp_Orai\IO\Feladat_04\obj\Debug\net6.0\ref\Feladat_04.dll

@@ -1,0 +1,4 @@
+Egy szöveges dokumentumban e-mail címek találhatóak és a hozzájuk tartozó jelszó.
+Kérjük meg a felhasználót hogy adja meg az e-mail címét és a jelszót és ha ez megtalálható a szöveges dokumentumban léptessük be a rendszerbe és egy log.txt állományba írjuk be,
+hogy mikor és ki lépett be. Az e-mail cím bekérésénél ügyeljünk arra, hogy megfeleljen az e-mail cím formátumának. 
+A feladatot az OOP-al oldjuk megoldjuk meg.
