@@ -1,9 +1,0 @@
-git clone "url" // a kívánt mappába //1x kell használni
-##########################
-git add .
-
-git commit -m "szoveg"
-
-git push
-##########################
-git pull
