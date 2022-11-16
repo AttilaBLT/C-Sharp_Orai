@@ -28,3 +28,18 @@ C:\Users\sz2janatt\Desktop\c#\C-Sharp_Orai\IO\Feladat_01\obj\Debug\net6.0\refint
 C:\Users\sz2janatt\Desktop\c#\C-Sharp_Orai\IO\Feladat_01\obj\Debug\net6.0\Feladat_01.pdb
 C:\Users\sz2janatt\Desktop\c#\C-Sharp_Orai\IO\Feladat_01\obj\Debug\net6.0\Feladat_01.genruntimeconfig.cache
 C:\Users\sz2janatt\Desktop\c#\C-Sharp_Orai\IO\Feladat_01\obj\Debug\net6.0\ref\Feladat_01.dll
+C:\Users\attil\OneDrive\Asztali gép\Iskola\Iskola 2022-2023\c#\C-Sharp_Orai\IO\Feladat_01\bin\Debug\net6.0\Feladat_01.exe
+C:\Users\attil\OneDrive\Asztali gép\Iskola\Iskola 2022-2023\c#\C-Sharp_Orai\IO\Feladat_01\bin\Debug\net6.0\Feladat_01.deps.json
+C:\Users\attil\OneDrive\Asztali gép\Iskola\Iskola 2022-2023\c#\C-Sharp_Orai\IO\Feladat_01\bin\Debug\net6.0\Feladat_01.runtimeconfig.json
+C:\Users\attil\OneDrive\Asztali gép\Iskola\Iskola 2022-2023\c#\C-Sharp_Orai\IO\Feladat_01\bin\Debug\net6.0\Feladat_01.dll
+C:\Users\attil\OneDrive\Asztali gép\Iskola\Iskola 2022-2023\c#\C-Sharp_Orai\IO\Feladat_01\bin\Debug\net6.0\Feladat_01.pdb
+C:\Users\attil\OneDrive\Asztali gép\Iskola\Iskola 2022-2023\c#\C-Sharp_Orai\IO\Feladat_01\obj\Debug\net6.0\Feladat_01.csproj.AssemblyReference.cache
+C:\Users\attil\OneDrive\Asztali gép\Iskola\Iskola 2022-2023\c#\C-Sharp_Orai\IO\Feladat_01\obj\Debug\net6.0\Feladat_01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\attil\OneDrive\Asztali gép\Iskola\Iskola 2022-2023\c#\C-Sharp_Orai\IO\Feladat_01\obj\Debug\net6.0\Feladat_01.AssemblyInfoInputs.cache
+C:\Users\attil\OneDrive\Asztali gép\Iskola\Iskola 2022-2023\c#\C-Sharp_Orai\IO\Feladat_01\obj\Debug\net6.0\Feladat_01.AssemblyInfo.cs
+C:\Users\attil\OneDrive\Asztali gép\Iskola\Iskola 2022-2023\c#\C-Sharp_Orai\IO\Feladat_01\obj\Debug\net6.0\Feladat_01.csproj.CoreCompileInputs.cache
+C:\Users\attil\OneDrive\Asztali gép\Iskola\Iskola 2022-2023\c#\C-Sharp_Orai\IO\Feladat_01\obj\Debug\net6.0\Feladat_01.dll
+C:\Users\attil\OneDrive\Asztali gép\Iskola\Iskola 2022-2023\c#\C-Sharp_Orai\IO\Feladat_01\obj\Debug\net6.0\refint\Feladat_01.dll
+C:\Users\attil\OneDrive\Asztali gép\Iskola\Iskola 2022-2023\c#\C-Sharp_Orai\IO\Feladat_01\obj\Debug\net6.0\Feladat_01.pdb
+C:\Users\attil\OneDrive\Asztali gép\Iskola\Iskola 2022-2023\c#\C-Sharp_Orai\IO\Feladat_01\obj\Debug\net6.0\Feladat_01.genruntimeconfig.cache
+C:\Users\attil\OneDrive\Asztali gép\Iskola\Iskola 2022-2023\c#\C-Sharp_Orai\IO\Feladat_01\obj\Debug\net6.0\ref\Feladat_01.dll

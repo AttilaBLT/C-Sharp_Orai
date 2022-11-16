@@ -32,5 +32,10 @@
         PageNumber = pageNumber;
         Honor = honor;
     }
+
+    public override string ToString()
+    {
+        return $"{FirstName} {LastName} ({BirthDate}) - {Title} ({ISBN}) - {Releaser} ({ReleaseDate}) - {Price} - {Theme} - {PageNumber} - {Honor}";
+    }
 }
 
