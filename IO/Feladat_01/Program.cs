@@ -51,14 +51,14 @@ List<Student> LoadData()
     //CultureInfo cultureinfo = Thread.CurrentThread.CurrentCulture; //kultúrális területek közötti eltérés, német - magyar nem egyezik
     List<Student> studentData = new List<Student>();
     using (FileStream fs = new FileStream(FileName, FileMode.Open, FileAccess.Read, FileShare.None))
-        using (StreamReader sr = new StreamReader(fs, Encoding.UTF7))
-        {
-            Student student = null;
-            string oneLineData = null;
-            string[] data = null;
+    using (StreamReader sr = new StreamReader(fs, Encoding.UTF7))
+    {
+        Student student = null;
+        string oneLineData = null;
+        string[] data = null;
 
-            while (!sr.EndOfStream)
-            {
+        while (!sr.EndOfStream)
+        {
             oneLineData = sr.ReadLine();
             data = oneLineData.Split("\t");
 
@@ -67,8 +67,8 @@ List<Student> LoadData()
             student.Avarage = double.Parse(data[1], new CultureInfo("hu-HU"));
 
             studentData.Add(student);
-            }
         }
+    }
     return studentData;
 }
 

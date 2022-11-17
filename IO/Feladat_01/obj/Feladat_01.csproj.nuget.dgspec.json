@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\attil\\OneDrive\\Asztali gép\\Iskola\\Iskola 2022-2023\\c#\\C-Sharp_Orai\\IO\\Feladat_01\\Feladat_01.csproj": {}
+    "C:\\Users\\sz2janatt\\Desktop\\c#\\C-Sharp_Orai\\IO\\Feladat_01\\Feladat_01.csproj": {}
   },
   "projects": {
-    "C:\\Users\\attil\\OneDrive\\Asztali gép\\Iskola\\Iskola 2022-2023\\c#\\C-Sharp_Orai\\IO\\Feladat_01\\Feladat_01.csproj": {
+    "C:\\Users\\sz2janatt\\Desktop\\c#\\C-Sharp_Orai\\IO\\Feladat_01\\Feladat_01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\attil\\OneDrive\\Asztali gép\\Iskola\\Iskola 2022-2023\\c#\\C-Sharp_Orai\\IO\\Feladat_01\\Feladat_01.csproj",
+        "projectUniqueName": "C:\\Users\\sz2janatt\\Desktop\\c#\\C-Sharp_Orai\\IO\\Feladat_01\\Feladat_01.csproj",
         "projectName": "Feladat_01",
-        "projectPath": "C:\\Users\\attil\\OneDrive\\Asztali gép\\Iskola\\Iskola 2022-2023\\c#\\C-Sharp_Orai\\IO\\Feladat_01\\Feladat_01.csproj",
-        "packagesPath": "C:\\Users\\attil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\attil\\OneDrive\\Asztali gép\\Iskola\\Iskola 2022-2023\\c#\\C-Sharp_Orai\\IO\\Feladat_01\\obj\\",
+        "projectPath": "C:\\Users\\sz2janatt\\Desktop\\c#\\C-Sharp_Orai\\IO\\Feladat_01\\Feladat_01.csproj",
+        "packagesPath": "C:\\Users\\sz2janatt\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sz2janatt\\Desktop\\c#\\C-Sharp_Orai\\IO\\Feladat_01\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\attil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sz2janatt\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -59,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

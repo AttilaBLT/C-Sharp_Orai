@@ -13,3 +13,18 @@ C:\Users\attil\OneDrive\Asztali gép\Iskola\Iskola 2022-2023\c#\C-Sharp_Orai\IO\
 C:\Users\attil\OneDrive\Asztali gép\Iskola\Iskola 2022-2023\c#\C-Sharp_Orai\IO\Feladat_05\obj\Debug\net6.0\Feladat_05.pdb
 C:\Users\attil\OneDrive\Asztali gép\Iskola\Iskola 2022-2023\c#\C-Sharp_Orai\IO\Feladat_05\obj\Debug\net6.0\Feladat_05.genruntimeconfig.cache
 C:\Users\attil\OneDrive\Asztali gép\Iskola\Iskola 2022-2023\c#\C-Sharp_Orai\IO\Feladat_05\obj\Debug\net6.0\ref\Feladat_05.dll
+C:\Users\sz2janatt\Desktop\c#\C-Sharp_Orai\IO\Feladat_05\bin\Debug\net6.0\Feladat_05.exe
+C:\Users\sz2janatt\Desktop\c#\C-Sharp_Orai\IO\Feladat_05\bin\Debug\net6.0\Feladat_05.deps.json
+C:\Users\sz2janatt\Desktop\c#\C-Sharp_Orai\IO\Feladat_05\bin\Debug\net6.0\Feladat_05.runtimeconfig.json
+C:\Users\sz2janatt\Desktop\c#\C-Sharp_Orai\IO\Feladat_05\bin\Debug\net6.0\Feladat_05.dll
+C:\Users\sz2janatt\Desktop\c#\C-Sharp_Orai\IO\Feladat_05\bin\Debug\net6.0\Feladat_05.pdb
+C:\Users\sz2janatt\Desktop\c#\C-Sharp_Orai\IO\Feladat_05\obj\Debug\net6.0\Feladat_05.csproj.AssemblyReference.cache
+C:\Users\sz2janatt\Desktop\c#\C-Sharp_Orai\IO\Feladat_05\obj\Debug\net6.0\Feladat_05.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sz2janatt\Desktop\c#\C-Sharp_Orai\IO\Feladat_05\obj\Debug\net6.0\Feladat_05.AssemblyInfoInputs.cache
+C:\Users\sz2janatt\Desktop\c#\C-Sharp_Orai\IO\Feladat_05\obj\Debug\net6.0\Feladat_05.AssemblyInfo.cs
+C:\Users\sz2janatt\Desktop\c#\C-Sharp_Orai\IO\Feladat_05\obj\Debug\net6.0\Feladat_05.csproj.CoreCompileInputs.cache
+C:\Users\sz2janatt\Desktop\c#\C-Sharp_Orai\IO\Feladat_05\obj\Debug\net6.0\Feladat_05.dll
+C:\Users\sz2janatt\Desktop\c#\C-Sharp_Orai\IO\Feladat_05\obj\Debug\net6.0\refint\Feladat_05.dll
+C:\Users\sz2janatt\Desktop\c#\C-Sharp_Orai\IO\Feladat_05\obj\Debug\net6.0\Feladat_05.pdb
+C:\Users\sz2janatt\Desktop\c#\C-Sharp_Orai\IO\Feladat_05\obj\Debug\net6.0\Feladat_05.genruntimeconfig.cache
+C:\Users\sz2janatt\Desktop\c#\C-Sharp_Orai\IO\Feladat_05\obj\Debug\net6.0\ref\Feladat_05.dll
