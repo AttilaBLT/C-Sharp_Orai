@@ -17,7 +17,9 @@ OrderByPageNumber(orderByPageNumber);
 
 //5.- „kategoriak.txt” állományba mentse el a könyveket téma szerint.
 Dictionary<string, List<Book>> booksByThemes = new Dictionary<string, List<Book>>();
+
 List<string> themes = books.Select(x => x.Theme).Distinct().ToList();
+
 foreach (string theme in themes)
 {
     booksByThemes.Add(theme, books.Where(x => x.Theme == theme).Distinct().ToList());
