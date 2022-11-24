@@ -64,3 +64,4 @@ C:\Users\sz2janatt\Desktop\c#\C-Sharp_Orai\Win forms\LoL\Solution\Solution\obj\D
 C:\Users\sz2janatt\Desktop\c#\C-Sharp_Orai\Win forms\LoL\Solution\Solution\obj\Debug\net6.0-windows\LoL.UI.pdb
 C:\Users\sz2janatt\Desktop\c#\C-Sharp_Orai\Win forms\LoL\Solution\Solution\obj\Debug\net6.0-windows\LoL.UI.genruntimeconfig.cache
 C:\Users\sz2janatt\Desktop\c#\C-Sharp_Orai\Win forms\LoL\Solution\Solution\obj\Debug\net6.0-windows\ref\LoL.UI.dll
+C:\Users\sz2janatt\Desktop\c#\C-Sharp_Orai\Win forms\LoL\Solution\Solution\obj\Debug\net6.0-windows\LoL.UI.Properties.Resources.resources

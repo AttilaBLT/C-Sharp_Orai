@@ -2,12 +2,12 @@
 
 public class AppDbContext:DbContext
 {
-    DbSet<Champion> Champions { get; set; }
-    DbSet<Role> Roles { get; set; }
+    public DbSet<Champion> Champions { get; set; }
+    public DbSet<Role> Roles { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer(@"Server=.\SQLEXPRESS;Database=LoLDB;Trusted_Connection=True;");
+        optionsBuilder.UseSqlServer(@"Server=(LocalDB)\MSSQLLocalDB;Database=LoLDB;Trusted_Connection=True;");
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
