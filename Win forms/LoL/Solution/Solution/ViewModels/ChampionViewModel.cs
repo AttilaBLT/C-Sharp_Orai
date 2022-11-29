@@ -48,6 +48,7 @@ public class ChampionViewModel
         Mana = champion.Mana;
         DateOfRelease = champion.DateOfRelease;
         RoleName = champion.Role.Name;
+        RoleId = champion.Role.Id;
     }
 
     public Champion ToDbEntity()
@@ -65,7 +66,6 @@ public class ChampionViewModel
 
     public void ToDbEntity(Champion champion)
     {
-        champion.Id = Id;
         champion.Name = Name;
         champion.Hp = Hp;
         champion.Mana = Mana;

@@ -40,13 +40,13 @@
             this.buttonOK = new System.Windows.Forms.Button();
             this.comboBoxRole = new System.Windows.Forms.ComboBox();
             this.labelRole = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePickerDateOfRelease = new System.Windows.Forms.DateTimePicker();
             this.labelDateOfRelease = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBoxMana = new System.Windows.Forms.TextBox();
             this.labelMana = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBoxHp = new System.Windows.Forms.TextBox();
             this.labelHp = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBoxName = new System.Windows.Forms.TextBox();
             this.labelName = new System.Windows.Forms.Label();
             this.dataGridView = new System.Windows.Forms.DataGridView();
             this.toolStrip.SuspendLayout();
@@ -77,6 +77,7 @@
             this.buttonAdd.Name = "buttonAdd";
             this.buttonAdd.Size = new System.Drawing.Size(23, 22);
             this.buttonAdd.Text = "Add";
+            this.buttonAdd.Click += new System.EventHandler(this.OnAddClick);
             // 
             // toolStripSeparator1
             // 
@@ -91,6 +92,7 @@
             this.buttonUpdate.Name = "buttonUpdate";
             this.buttonUpdate.Size = new System.Drawing.Size(23, 22);
             this.buttonUpdate.Text = "Update";
+            this.buttonUpdate.Click += new System.EventHandler(this.onUpdateClick);
             // 
             // toolStripSeparator2
             // 
@@ -105,6 +107,7 @@
             this.buttonDelete.Name = "buttonDelete";
             this.buttonDelete.Size = new System.Drawing.Size(23, 22);
             this.buttonDelete.Text = "Delete";
+            this.buttonDelete.Click += new System.EventHandler(this.OnDeleteClick);
             // 
             // toolStripSeparator3
             // 
@@ -117,13 +120,13 @@
             this.formGroup.Controls.Add(this.buttonOK);
             this.formGroup.Controls.Add(this.comboBoxRole);
             this.formGroup.Controls.Add(this.labelRole);
-            this.formGroup.Controls.Add(this.dateTimePicker1);
+            this.formGroup.Controls.Add(this.dateTimePickerDateOfRelease);
             this.formGroup.Controls.Add(this.labelDateOfRelease);
-            this.formGroup.Controls.Add(this.textBox3);
+            this.formGroup.Controls.Add(this.textBoxMana);
             this.formGroup.Controls.Add(this.labelMana);
-            this.formGroup.Controls.Add(this.textBox2);
+            this.formGroup.Controls.Add(this.textBoxHp);
             this.formGroup.Controls.Add(this.labelHp);
-            this.formGroup.Controls.Add(this.textBox1);
+            this.formGroup.Controls.Add(this.textBoxName);
             this.formGroup.Controls.Add(this.labelName);
             this.formGroup.Enabled = false;
             this.formGroup.Location = new System.Drawing.Point(0, 28);
@@ -141,9 +144,11 @@
             this.buttonOK.TabIndex = 10;
             this.buttonOK.Text = "OK";
             this.buttonOK.UseVisualStyleBackColor = true;
+            this.buttonOK.Click += new System.EventHandler(this.OnSubmitClick);
             // 
             // comboBoxRole
             // 
+            this.comboBoxRole.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxRole.FormattingEnabled = true;
             this.comboBoxRole.Location = new System.Drawing.Point(5, 221);
             this.comboBoxRole.Name = "comboBoxRole";
@@ -159,12 +164,12 @@
             this.labelRole.TabIndex = 8;
             this.labelRole.Text = "Role";
             // 
-            // dateTimePicker1
+            // dateTimePickerDateOfRelease
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(5, 177);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(389, 23);
-            this.dateTimePicker1.TabIndex = 7;
+            this.dateTimePickerDateOfRelease.Location = new System.Drawing.Point(5, 177);
+            this.dateTimePickerDateOfRelease.Name = "dateTimePickerDateOfRelease";
+            this.dateTimePickerDateOfRelease.Size = new System.Drawing.Size(389, 23);
+            this.dateTimePickerDateOfRelease.TabIndex = 7;
             // 
             // labelDateOfRelease
             // 
@@ -175,12 +180,12 @@
             this.labelDateOfRelease.TabIndex = 6;
             this.labelDateOfRelease.Text = "Date Of Release";
             // 
-            // textBox3
+            // textBoxMana
             // 
-            this.textBox3.Location = new System.Drawing.Point(5, 133);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(389, 23);
-            this.textBox3.TabIndex = 5;
+            this.textBoxMana.Location = new System.Drawing.Point(5, 133);
+            this.textBoxMana.Name = "textBoxMana";
+            this.textBoxMana.Size = new System.Drawing.Size(389, 23);
+            this.textBoxMana.TabIndex = 5;
             // 
             // labelMana
             // 
@@ -191,12 +196,12 @@
             this.labelMana.TabIndex = 4;
             this.labelMana.Text = "Mana";
             // 
-            // textBox2
+            // textBoxHp
             // 
-            this.textBox2.Location = new System.Drawing.Point(5, 89);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(389, 23);
-            this.textBox2.TabIndex = 3;
+            this.textBoxHp.Location = new System.Drawing.Point(5, 89);
+            this.textBoxHp.Name = "textBoxHp";
+            this.textBoxHp.Size = new System.Drawing.Size(389, 23);
+            this.textBoxHp.TabIndex = 3;
             // 
             // labelHp
             // 
@@ -207,12 +212,12 @@
             this.labelHp.TabIndex = 2;
             this.labelHp.Text = "HP";
             // 
-            // textBox1
+            // textBoxName
             // 
-            this.textBox1.Location = new System.Drawing.Point(5, 45);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(389, 23);
-            this.textBox1.TabIndex = 1;
+            this.textBoxName.Location = new System.Drawing.Point(5, 45);
+            this.textBoxName.Name = "textBoxName";
+            this.textBoxName.Size = new System.Drawing.Size(389, 23);
+            this.textBoxName.TabIndex = 1;
             // 
             // labelName
             // 
@@ -272,13 +277,13 @@
         private Button buttonOK;
         private ComboBox comboBoxRole;
         private Label labelRole;
-        private DateTimePicker dateTimePicker1;
+        private DateTimePicker dateTimePickerDateOfRelease;
         private Label labelDateOfRelease;
-        private TextBox textBox3;
+        private TextBox textBoxMana;
         private Label labelMana;
-        private TextBox textBox2;
+        private TextBox textBoxHp;
         private Label labelHp;
-        private TextBox textBox1;
+        private TextBox textBoxName;
         private Label labelName;
     }
 }

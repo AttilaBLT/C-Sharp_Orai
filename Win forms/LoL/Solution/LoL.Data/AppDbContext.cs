@@ -12,6 +12,10 @@ public class AppDbContext:DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<Champion>()
+                    .HasOne(x => x.Role);
+
+
         List<Role> roles = new List<Role>()
         {
             new Role{Id=1, Name="Top"},
