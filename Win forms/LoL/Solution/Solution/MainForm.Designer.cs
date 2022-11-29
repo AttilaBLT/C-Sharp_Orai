@@ -37,18 +37,18 @@
             this.buttonDelete = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.formGroup = new System.Windows.Forms.GroupBox();
-            this.dataGridView = new System.Windows.Forms.DataGridView();
-            this.labelName = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.labelHp = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.labelMana = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.labelDateOfRelease = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.labelRole = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.buttonOK = new System.Windows.Forms.Button();
+            this.comboBoxRole = new System.Windows.Forms.ComboBox();
+            this.labelRole = new System.Windows.Forms.Label();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.labelDateOfRelease = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.labelMana = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.labelHp = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.labelName = new System.Windows.Forms.Label();
+            this.dataGridView = new System.Windows.Forms.DataGridView();
             this.toolStrip.SuspendLayout();
             this.formGroup.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
@@ -115,7 +115,7 @@
             // 
             this.formGroup.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.formGroup.Controls.Add(this.buttonOK);
-            this.formGroup.Controls.Add(this.comboBox1);
+            this.formGroup.Controls.Add(this.comboBoxRole);
             this.formGroup.Controls.Add(this.labelRole);
             this.formGroup.Controls.Add(this.dateTimePicker1);
             this.formGroup.Controls.Add(this.labelDateOfRelease);
@@ -133,6 +133,96 @@
             this.formGroup.TabStop = false;
             this.formGroup.Text = "Champion Data";
             // 
+            // buttonOK
+            // 
+            this.buttonOK.Location = new System.Drawing.Point(147, 703);
+            this.buttonOK.Name = "buttonOK";
+            this.buttonOK.Size = new System.Drawing.Size(75, 23);
+            this.buttonOK.TabIndex = 10;
+            this.buttonOK.Text = "OK";
+            this.buttonOK.UseVisualStyleBackColor = true;
+            // 
+            // comboBoxRole
+            // 
+            this.comboBoxRole.FormattingEnabled = true;
+            this.comboBoxRole.Location = new System.Drawing.Point(5, 221);
+            this.comboBoxRole.Name = "comboBoxRole";
+            this.comboBoxRole.Size = new System.Drawing.Size(389, 23);
+            this.comboBoxRole.TabIndex = 9;
+            // 
+            // labelRole
+            // 
+            this.labelRole.AutoSize = true;
+            this.labelRole.Location = new System.Drawing.Point(5, 203);
+            this.labelRole.Name = "labelRole";
+            this.labelRole.Size = new System.Drawing.Size(30, 15);
+            this.labelRole.TabIndex = 8;
+            this.labelRole.Text = "Role";
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(5, 177);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(389, 23);
+            this.dateTimePicker1.TabIndex = 7;
+            // 
+            // labelDateOfRelease
+            // 
+            this.labelDateOfRelease.AutoSize = true;
+            this.labelDateOfRelease.Location = new System.Drawing.Point(5, 159);
+            this.labelDateOfRelease.Name = "labelDateOfRelease";
+            this.labelDateOfRelease.Size = new System.Drawing.Size(89, 15);
+            this.labelDateOfRelease.TabIndex = 6;
+            this.labelDateOfRelease.Text = "Date Of Release";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(5, 133);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(389, 23);
+            this.textBox3.TabIndex = 5;
+            // 
+            // labelMana
+            // 
+            this.labelMana.AutoSize = true;
+            this.labelMana.Location = new System.Drawing.Point(5, 115);
+            this.labelMana.Name = "labelMana";
+            this.labelMana.Size = new System.Drawing.Size(37, 15);
+            this.labelMana.TabIndex = 4;
+            this.labelMana.Text = "Mana";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(5, 89);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(389, 23);
+            this.textBox2.TabIndex = 3;
+            // 
+            // labelHp
+            // 
+            this.labelHp.AutoSize = true;
+            this.labelHp.Location = new System.Drawing.Point(5, 71);
+            this.labelHp.Name = "labelHp";
+            this.labelHp.Size = new System.Drawing.Size(23, 15);
+            this.labelHp.TabIndex = 2;
+            this.labelHp.Text = "HP";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(5, 45);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(389, 23);
+            this.textBox1.TabIndex = 1;
+            // 
+            // labelName
+            // 
+            this.labelName.AutoSize = true;
+            this.labelName.Location = new System.Drawing.Point(5, 27);
+            this.labelName.Name = "labelName";
+            this.labelName.Size = new System.Drawing.Size(39, 15);
+            this.labelName.TabIndex = 0;
+            this.labelName.Text = "Name";
+            // 
             // dataGridView
             // 
             this.dataGridView.AllowUserToAddRows = false;
@@ -144,96 +234,6 @@
             this.dataGridView.RowTemplate.Height = 25;
             this.dataGridView.Size = new System.Drawing.Size(778, 732);
             this.dataGridView.TabIndex = 2;
-            // 
-            // labelName
-            // 
-            this.labelName.AutoSize = true;
-            this.labelName.Location = new System.Drawing.Point(5, 27);
-            this.labelName.Name = "labelName";
-            this.labelName.Size = new System.Drawing.Size(39, 15);
-            this.labelName.TabIndex = 0;
-            this.labelName.Text = "Name";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(5, 45);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(389, 23);
-            this.textBox1.TabIndex = 1;
-            // 
-            // labelHp
-            // 
-            this.labelHp.AutoSize = true;
-            this.labelHp.Location = new System.Drawing.Point(5, 71);
-            this.labelHp.Name = "labelHp";
-            this.labelHp.Size = new System.Drawing.Size(23, 15);
-            this.labelHp.TabIndex = 2;
-            this.labelHp.Text = "Hp";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(5, 89);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(389, 23);
-            this.textBox2.TabIndex = 3;
-            // 
-            // labelMana
-            // 
-            this.labelMana.AutoSize = true;
-            this.labelMana.Location = new System.Drawing.Point(5, 115);
-            this.labelMana.Name = "labelMana";
-            this.labelMana.Size = new System.Drawing.Size(37, 15);
-            this.labelMana.TabIndex = 4;
-            this.labelMana.Text = "Mana";
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(5, 133);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(389, 23);
-            this.textBox3.TabIndex = 5;
-            // 
-            // labelDateOfRelease
-            // 
-            this.labelDateOfRelease.AutoSize = true;
-            this.labelDateOfRelease.Location = new System.Drawing.Point(5, 159);
-            this.labelDateOfRelease.Name = "labelDateOfRelease";
-            this.labelDateOfRelease.Size = new System.Drawing.Size(83, 15);
-            this.labelDateOfRelease.TabIndex = 6;
-            this.labelDateOfRelease.Text = "DateOfRelease";
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(5, 177);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(389, 23);
-            this.dateTimePicker1.TabIndex = 7;
-            // 
-            // labelRole
-            // 
-            this.labelRole.AutoSize = true;
-            this.labelRole.Location = new System.Drawing.Point(5, 203);
-            this.labelRole.Name = "labelRole";
-            this.labelRole.Size = new System.Drawing.Size(30, 15);
-            this.labelRole.TabIndex = 8;
-            this.labelRole.Text = "Role";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(5, 221);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(389, 23);
-            this.comboBox1.TabIndex = 9;
-            // 
-            // buttonOK
-            // 
-            this.buttonOK.Location = new System.Drawing.Point(147, 703);
-            this.buttonOK.Name = "buttonOK";
-            this.buttonOK.Size = new System.Drawing.Size(75, 23);
-            this.buttonOK.TabIndex = 10;
-            this.buttonOK.Text = "OK";
-            this.buttonOK.UseVisualStyleBackColor = true;
             // 
             // MainForm
             // 
@@ -270,7 +270,7 @@
         private GroupBox formGroup;
         private DataGridView dataGridView;
         private Button buttonOK;
-        private ComboBox comboBox1;
+        private ComboBox comboBoxRole;
         private Label labelRole;
         private DateTimePicker dateTimePicker1;
         private Label labelDateOfRelease;

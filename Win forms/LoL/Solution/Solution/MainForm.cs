@@ -12,6 +12,7 @@ public partial class MainForm : Form
     {
         base.OnLoad(e);
 
+        PopulateRoleComboBox();
         PopulateDataGridView();
     }
 
@@ -21,5 +22,13 @@ public partial class MainForm : Form
         adapter.DataSource = context.Champions.Select(x => new ChampionViewModel(x))
                                               .ToList();
         dataGridView.DataSource = adapter;
+    }
+
+    private void PopulateRoleComboBox()
+    {
+        using AppDbContext context = new AppDbContext();
+        comboBoxRole.DataSource = context.Roles.ToList();
+        comboBoxRole.DisplayMember = "Name";
+        comboBoxRole.ValueMember = "Id";
     }
 }
