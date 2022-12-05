@@ -1,4 +1,4 @@
-A roplabda.txt állományban az adatok a következő módón vannak tárolva:
+﻿A roplabda.txt állományban az adatok a következő módón vannak tárolva:
 Név,
 Magasság,
 Poszt,

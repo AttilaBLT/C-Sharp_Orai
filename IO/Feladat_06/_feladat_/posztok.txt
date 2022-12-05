@@ -1,0 +1,5 @@
+﻿liberó: 165Cm
+feladó: 356Cm
+sánc: 935Cm
+fogató: 1850Cm
+ütő: 3045Cm
