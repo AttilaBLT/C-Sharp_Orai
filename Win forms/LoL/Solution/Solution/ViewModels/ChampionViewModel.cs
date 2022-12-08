@@ -8,11 +8,11 @@ public class ChampionViewModel
     public string Name { get; set; }
 
     [Required]
-    [Range(0, int.MaxValue)]
+    [Range(0, 1000)]
     public int Hp { get; set; }
 
     [Required]
-    [Range(0, int.MaxValue)]
+    [Range(0, 1000)]
     public int Mana { get; set; }
 
     [Required]

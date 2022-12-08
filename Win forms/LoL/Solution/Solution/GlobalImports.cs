@@ -10,3 +10,4 @@ global using Microsoft.EntityFrameworkCore;
 global using LoL.Data.Entities;
 global using LoL.Data;
 global using LoL.UI.ViewModels;
+global using System.Configuration;

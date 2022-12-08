@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xX7GXLeu/PLQLDhCzx98plcXL5rvMXFGXphl5EyudBN4ZStDYw8mqc7q6QKE2QxNNuAwC7PNx1ls7BJYZ4naMg==",
+  "dgSpecHash": "mGj2xDe7ao5RqcFNZRCzd6kmvekLXKke9BNX1x5wmtbaktwJZO2aCXDEAI9UYvgcWAqaBYwvh2v4q5ArM5F+Tg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sz2janatt\\Desktop\\c#\\C-Sharp_Orai\\Win forms\\LoL\\Solution\\LoL.Data\\LoL.Data.csproj",
+  "projectFilePath": "C:\\Users\\sz2janatt\\Desktop\\c_#\\C-Sharp_Orai\\Win forms\\LoL\\Solution\\LoL.Data\\LoL.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sz2janatt\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\sz2janatt\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
