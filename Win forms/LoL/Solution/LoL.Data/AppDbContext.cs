@@ -7,7 +7,7 @@ public class AppDbContext:DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer(@"Server=(LocalDB)\MSSQLLocalDB;Database=LoLDB;Trusted_Connection=True;");
+        optionsBuilder.UseSqlServer(@"Server=(LocalDB)\MSSQLLocalDB;Database=LoLDB;Trusted_Connection=True;TrustServerCertificate=True");
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)

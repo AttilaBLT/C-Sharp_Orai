@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "mGj2xDe7ao5RqcFNZRCzd6kmvekLXKke9BNX1x5wmtbaktwJZO2aCXDEAI9UYvgcWAqaBYwvh2v4q5ArM5F+Tg==",
+  "dgSpecHash": "beelsBoWt8e7yvnm1WEWvwaBtwSzXgIr2/G226CzllP/QDsEYKMvrsYB1Xy4dUQUiwGkZDq01RJy0EG31yt4/A==",
   "success": true,
   "projectFilePath": "C:\\Users\\sz2janatt\\Desktop\\c_#\\C-Sharp_Orai\\Win forms\\LoL\\Solution\\LoL.Data\\LoL.Data.csproj",
   "expectedPackageFiles": [
@@ -62,7 +62,6 @@
     "C:\\Users\\sz2janatt\\.nuget\\packages\\system.resources.resourcemanager\\4.3.0\\system.resources.resourcemanager.4.3.0.nupkg.sha512",
     "C:\\Users\\sz2janatt\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
     "C:\\Users\\sz2janatt\\.nuget\\packages\\system.runtime.caching\\5.0.0\\system.runtime.caching.5.0.0.nupkg.sha512",
-    "C:\\Users\\sz2janatt\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\sz2janatt\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
     "C:\\Users\\sz2janatt\\.nuget\\packages\\system.security.cryptography.cng\\5.0.0\\system.security.cryptography.cng.5.0.0.nupkg.sha512",
     "C:\\Users\\sz2janatt\\.nuget\\packages\\system.security.cryptography.protecteddata\\5.0.0\\system.security.cryptography.protecteddata.5.0.0.nupkg.sha512",

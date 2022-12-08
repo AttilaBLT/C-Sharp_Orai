@@ -1,6 +1,3 @@
-using LoL.Data.Entities;
-using System.Security.Cryptography.X509Certificates;
-
 namespace Solution;
 public partial class MainForm : Form
 {
@@ -86,8 +83,8 @@ public partial class MainForm : Form
     private void PopulateForm(ChampionViewModel model)
     {
         textBoxName.Text = model.Name;
-        textBoxHp.Text = model.Hp.ToString();
-        textBoxMana.Text = model.Mana.ToString();
+        numericBoxHp.IntValue = model.Hp;
+        numericBoxMana.IntValue = model.Mana;
         dateTimePickerDateOfRelease.Value = model.DateOfRelease;
         comboBoxRole.SelectedValue = model.RoleId;
     }
@@ -95,9 +92,11 @@ public partial class MainForm : Form
     private void ClearForm()
     {
         textBoxName.Text = string.Empty;
-        textBoxHp.Text = string.Empty;
-        textBoxMana.Text = string.Empty;
-        dateTimePickerDateOfRelease.Value = DateTime.Now;
+        numericBoxHp.IntValue = null;
+        //numericBoxHp.Text = string.Empty;
+        numericBoxMana.IntValue = null;
+        //numericBoxMana.Text = string.Empty;
+        dateTimePickerDateOfRelease.Value = DateTime.Now.Date;
         comboBoxRole.SelectedValue = 0;
     }
 
@@ -106,18 +105,37 @@ public partial class MainForm : Form
         return new ChampionViewModel
         {
             Name = textBoxName.Text.Trim(),
-            Hp = int.Parse(textBoxHp.Text.Trim()),
-            Mana = int.Parse(textBoxMana.Text.Trim()),
+            Hp = numericBoxHp.IntValue,
+            Mana = numericBoxMana.IntValue,
             DateOfRelease = dateTimePickerDateOfRelease.Value,
             RoleId = (int)comboBoxRole.SelectedValue,
             RoleName = comboBoxRole.Text.Trim(),
         };
     }
 
+    private void ShowErrors(Dictionary<string, string> errors)
+    {
+        labelNameError.Text = errors.GetValueOrDefault("Name");
+        labelHpError.Text = errors.GetValueOrDefault("Hp");
+        labelManaError.Text = errors.GetValueOrDefault("Mana");
+    }
+
     private void AddNewChampion()
     {
+        //Adatok begyüjtése az ûrlapból
         ChampionViewModel model = CollectData();
 
+
+        //Begyüjtött adat modell validálása
+        ModelValidationResult ValidationResult = model.Validate();
+        ShowErrors(ValidationResult.Errors);
+        if (!ValidationResult.isValid)
+        {
+            return;
+        }
+
+
+        //mentés
         Champion champion = model.ToDbEntity();
 
         using AppDbContext context = new AppDbContext();
@@ -125,8 +143,14 @@ public partial class MainForm : Form
         context.SaveChanges();      
 
         model.Id= champion.Id;
+
+        //megjelenítõ táblába helyezés
         adapter.Add(model);
+
+        //elemek alaphelyzetbe állítása
         ClearForm();
+        formGroup.Enabled = true;
+        toolStrip.Enabled = true;
     }
 
     private void UpdateChampion()
@@ -138,6 +162,13 @@ public partial class MainForm : Form
         Champion champion = context.Champions.Find(model.Id);
 
         model = CollectData();
+
+        ModelValidationResult ValidationResult = model.Validate();
+        ShowErrors(ValidationResult.Errors);
+        if (!ValidationResult.isValid)
+        {
+            return;
+        }
 
         model.ToDbEntity(champion);
         context.SaveChanges();

@@ -9,11 +9,11 @@ public class ChampionViewModel
 
     [Required]
     [Range(0, 1000)]
-    public int Hp { get; set; }
+    public int? Hp { get; set; }
 
     [Required]
     [Range(0, 1000)]
-    public int Mana { get; set; }
+    public int? Mana { get; set; }
 
     [Required]
     public DateTime DateOfRelease { get; set; }
@@ -35,7 +35,7 @@ public class ChampionViewModel
         Name = name;
         Hp = hp;
         Mana = mana;
-        DateOfRelease = dateOfRelease;
+        DateOfRelease = dateOfRelease.Date;
         RoleId = roleId;
         RoleName = roleName;
     }
@@ -46,7 +46,7 @@ public class ChampionViewModel
         Name = champion.Name;
         Hp = champion.Hp;
         Mana = champion.Mana;
-        DateOfRelease = champion.DateOfRelease;
+        DateOfRelease = champion.DateOfRelease.Date;
         RoleName = champion.Role.Name;
         RoleId = champion.Role.Id;
     }
@@ -57,9 +57,9 @@ public class ChampionViewModel
         {
             Id = Id,
             Name = Name,
-            Hp = Hp,
-            Mana = Mana,
-            DateOfRelease = DateOfRelease,
+            Hp = Hp.Value,
+            Mana = Mana.Value,
+            DateOfRelease = DateOfRelease.Date,
             RoleId = RoleId,
         };
     }
@@ -67,9 +67,9 @@ public class ChampionViewModel
     public void ToDbEntity(Champion champion)
     {
         champion.Name = Name;
-        champion.Hp = Hp;
-        champion.Mana = Mana;
-        champion.DateOfRelease = DateOfRelease;
+        champion.Hp = Hp.Value;
+        champion.Mana = Mana.Value;
+        champion.DateOfRelease = DateOfRelease.Date;
         champion.RoleId = RoleId;
     }
 }

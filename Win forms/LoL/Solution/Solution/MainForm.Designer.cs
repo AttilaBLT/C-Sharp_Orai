@@ -37,19 +37,22 @@
             this.buttonDelete = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.formGroup = new System.Windows.Forms.GroupBox();
+            this.labelManaError = new System.Windows.Forms.Label();
+            this.labelHpError = new System.Windows.Forms.Label();
+            this.labelNameError = new System.Windows.Forms.Label();
             this.buttonCancel = new System.Windows.Forms.Button();
             this.buttonOK = new System.Windows.Forms.Button();
             this.comboBoxRole = new System.Windows.Forms.ComboBox();
             this.labelRole = new System.Windows.Forms.Label();
             this.dateTimePickerDateOfRelease = new System.Windows.Forms.DateTimePicker();
             this.labelDateOfRelease = new System.Windows.Forms.Label();
-            this.textBoxMana = new System.Windows.Forms.TextBox();
             this.labelMana = new System.Windows.Forms.Label();
-            this.textBoxHp = new System.Windows.Forms.TextBox();
             this.labelHp = new System.Windows.Forms.Label();
             this.textBoxName = new System.Windows.Forms.TextBox();
             this.labelName = new System.Windows.Forms.Label();
             this.dataGridView = new System.Windows.Forms.DataGridView();
+            this.numericBoxHp = new LoL.UI.CustomControls.NumericBox();
+            this.numericBoxMana = new LoL.UI.CustomControls.NumericBox();
             this.toolStrip.SuspendLayout();
             this.formGroup.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
@@ -120,15 +123,18 @@
             this.formGroup.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.formGroup.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.formGroup.Controls.Add(this.numericBoxMana);
+            this.formGroup.Controls.Add(this.numericBoxHp);
+            this.formGroup.Controls.Add(this.labelManaError);
+            this.formGroup.Controls.Add(this.labelHpError);
+            this.formGroup.Controls.Add(this.labelNameError);
             this.formGroup.Controls.Add(this.buttonCancel);
             this.formGroup.Controls.Add(this.buttonOK);
             this.formGroup.Controls.Add(this.comboBoxRole);
             this.formGroup.Controls.Add(this.labelRole);
             this.formGroup.Controls.Add(this.dateTimePickerDateOfRelease);
             this.formGroup.Controls.Add(this.labelDateOfRelease);
-            this.formGroup.Controls.Add(this.textBoxMana);
             this.formGroup.Controls.Add(this.labelMana);
-            this.formGroup.Controls.Add(this.textBoxHp);
             this.formGroup.Controls.Add(this.labelHp);
             this.formGroup.Controls.Add(this.textBoxName);
             this.formGroup.Controls.Add(this.labelName);
@@ -139,6 +145,33 @@
             this.formGroup.TabIndex = 1;
             this.formGroup.TabStop = false;
             this.formGroup.Text = "Champion Data";
+            // 
+            // labelManaError
+            // 
+            this.labelManaError.AutoSize = true;
+            this.labelManaError.ForeColor = System.Drawing.Color.Red;
+            this.labelManaError.Location = new System.Drawing.Point(6, 212);
+            this.labelManaError.Name = "labelManaError";
+            this.labelManaError.Size = new System.Drawing.Size(0, 15);
+            this.labelManaError.TabIndex = 14;
+            // 
+            // labelHpError
+            // 
+            this.labelHpError.AutoSize = true;
+            this.labelHpError.ForeColor = System.Drawing.Color.Red;
+            this.labelHpError.Location = new System.Drawing.Point(6, 143);
+            this.labelHpError.Name = "labelHpError";
+            this.labelHpError.Size = new System.Drawing.Size(0, 15);
+            this.labelHpError.TabIndex = 13;
+            // 
+            // labelNameError
+            // 
+            this.labelNameError.AutoSize = true;
+            this.labelNameError.ForeColor = System.Drawing.Color.Red;
+            this.labelNameError.Location = new System.Drawing.Point(6, 71);
+            this.labelNameError.Name = "labelNameError";
+            this.labelNameError.Size = new System.Drawing.Size(0, 15);
+            this.labelNameError.TabIndex = 12;
             // 
             // buttonCancel
             // 
@@ -164,7 +197,7 @@
             // 
             this.comboBoxRole.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxRole.FormattingEnabled = true;
-            this.comboBoxRole.Location = new System.Drawing.Point(5, 221);
+            this.comboBoxRole.Location = new System.Drawing.Point(5, 297);
             this.comboBoxRole.Name = "comboBoxRole";
             this.comboBoxRole.Size = new System.Drawing.Size(389, 23);
             this.comboBoxRole.TabIndex = 9;
@@ -172,7 +205,7 @@
             // labelRole
             // 
             this.labelRole.AutoSize = true;
-            this.labelRole.Location = new System.Drawing.Point(5, 203);
+            this.labelRole.Location = new System.Drawing.Point(5, 279);
             this.labelRole.Name = "labelRole";
             this.labelRole.Size = new System.Drawing.Size(30, 15);
             this.labelRole.TabIndex = 8;
@@ -180,7 +213,7 @@
             // 
             // dateTimePickerDateOfRelease
             // 
-            this.dateTimePickerDateOfRelease.Location = new System.Drawing.Point(5, 177);
+            this.dateTimePickerDateOfRelease.Location = new System.Drawing.Point(5, 253);
             this.dateTimePickerDateOfRelease.Name = "dateTimePickerDateOfRelease";
             this.dateTimePickerDateOfRelease.Size = new System.Drawing.Size(389, 23);
             this.dateTimePickerDateOfRelease.TabIndex = 7;
@@ -188,39 +221,25 @@
             // labelDateOfRelease
             // 
             this.labelDateOfRelease.AutoSize = true;
-            this.labelDateOfRelease.Location = new System.Drawing.Point(5, 159);
+            this.labelDateOfRelease.Location = new System.Drawing.Point(5, 235);
             this.labelDateOfRelease.Name = "labelDateOfRelease";
             this.labelDateOfRelease.Size = new System.Drawing.Size(89, 15);
             this.labelDateOfRelease.TabIndex = 6;
             this.labelDateOfRelease.Text = "Date Of Release";
             // 
-            // textBoxMana
-            // 
-            this.textBoxMana.Location = new System.Drawing.Point(5, 133);
-            this.textBoxMana.Name = "textBoxMana";
-            this.textBoxMana.Size = new System.Drawing.Size(389, 23);
-            this.textBoxMana.TabIndex = 5;
-            // 
             // labelMana
             // 
             this.labelMana.AutoSize = true;
-            this.labelMana.Location = new System.Drawing.Point(5, 115);
+            this.labelMana.Location = new System.Drawing.Point(5, 168);
             this.labelMana.Name = "labelMana";
             this.labelMana.Size = new System.Drawing.Size(37, 15);
             this.labelMana.TabIndex = 4;
             this.labelMana.Text = "Mana";
             // 
-            // textBoxHp
-            // 
-            this.textBoxHp.Location = new System.Drawing.Point(5, 89);
-            this.textBoxHp.Name = "textBoxHp";
-            this.textBoxHp.Size = new System.Drawing.Size(389, 23);
-            this.textBoxHp.TabIndex = 3;
-            // 
             // labelHp
             // 
             this.labelHp.AutoSize = true;
-            this.labelHp.Location = new System.Drawing.Point(5, 71);
+            this.labelHp.Location = new System.Drawing.Point(5, 99);
             this.labelHp.Name = "labelHp";
             this.labelHp.Size = new System.Drawing.Size(23, 15);
             this.labelHp.TabIndex = 2;
@@ -258,6 +277,24 @@
             this.dataGridView.RowTemplate.Height = 25;
             this.dataGridView.Size = new System.Drawing.Size(778, 732);
             this.dataGridView.TabIndex = 2;
+            // 
+            // numericBoxHp
+            // 
+            this.numericBoxHp.DoubleValue = null;
+            this.numericBoxHp.IntValue = null;
+            this.numericBoxHp.Location = new System.Drawing.Point(6, 117);
+            this.numericBoxHp.Name = "numericBoxHp";
+            this.numericBoxHp.Size = new System.Drawing.Size(388, 23);
+            this.numericBoxHp.TabIndex = 15;
+            // 
+            // numericBoxMana
+            // 
+            this.numericBoxMana.DoubleValue = null;
+            this.numericBoxMana.IntValue = null;
+            this.numericBoxMana.Location = new System.Drawing.Point(5, 186);
+            this.numericBoxMana.Name = "numericBoxMana";
+            this.numericBoxMana.Size = new System.Drawing.Size(388, 23);
+            this.numericBoxMana.TabIndex = 16;
             // 
             // MainForm
             // 
@@ -299,12 +336,15 @@
         private Label labelRole;
         private DateTimePicker dateTimePickerDateOfRelease;
         private Label labelDateOfRelease;
-        private TextBox textBoxMana;
         private Label labelMana;
-        private TextBox textBoxHp;
         private Label labelHp;
         private TextBox textBoxName;
         private Label labelName;
         private Button buttonCancel;
+        private Label labelNameError;
+        private Label labelManaError;
+        private Label labelHpError;
+        private LoL.UI.CustomControls.NumericBox numericBoxMana;
+        private LoL.UI.CustomControls.NumericBox numericBoxHp;
     }
 }
