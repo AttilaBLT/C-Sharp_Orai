@@ -37,6 +37,8 @@
             this.buttonDelete = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.formGroup = new System.Windows.Forms.GroupBox();
+            this.numericBoxMana = new LoL.UI.CustomControls.NumericBox();
+            this.numericBoxHp = new LoL.UI.CustomControls.NumericBox();
             this.labelManaError = new System.Windows.Forms.Label();
             this.labelHpError = new System.Windows.Forms.Label();
             this.labelNameError = new System.Windows.Forms.Label();
@@ -51,8 +53,6 @@
             this.textBoxName = new System.Windows.Forms.TextBox();
             this.labelName = new System.Windows.Forms.Label();
             this.dataGridView = new System.Windows.Forms.DataGridView();
-            this.numericBoxHp = new LoL.UI.CustomControls.NumericBox();
-            this.numericBoxMana = new LoL.UI.CustomControls.NumericBox();
             this.toolStrip.SuspendLayout();
             this.formGroup.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
@@ -146,6 +146,26 @@
             this.formGroup.TabStop = false;
             this.formGroup.Text = "Champion Data";
             // 
+            // numericBoxMana
+            // 
+            this.numericBoxMana.DoubleValue = null;
+            this.numericBoxMana.IntValue = null;
+            this.numericBoxMana.Location = new System.Drawing.Point(5, 186);
+            this.numericBoxMana.Name = "numericBoxMana";
+            this.numericBoxMana.Size = new System.Drawing.Size(388, 23);
+            this.numericBoxMana.TabIndex = 3;
+            this.numericBoxMana.Leave += new System.EventHandler(this.OnLostFocus);
+            // 
+            // numericBoxHp
+            // 
+            this.numericBoxHp.DoubleValue = null;
+            this.numericBoxHp.IntValue = null;
+            this.numericBoxHp.Location = new System.Drawing.Point(6, 117);
+            this.numericBoxHp.Name = "numericBoxHp";
+            this.numericBoxHp.Size = new System.Drawing.Size(388, 23);
+            this.numericBoxHp.TabIndex = 2;
+            this.numericBoxHp.Leave += new System.EventHandler(this.OnLostFocus);
+            // 
             // labelManaError
             // 
             this.labelManaError.AutoSize = true;
@@ -200,7 +220,7 @@
             this.comboBoxRole.Location = new System.Drawing.Point(5, 297);
             this.comboBoxRole.Name = "comboBoxRole";
             this.comboBoxRole.Size = new System.Drawing.Size(389, 23);
-            this.comboBoxRole.TabIndex = 9;
+            this.comboBoxRole.TabIndex = 5;
             // 
             // labelRole
             // 
@@ -216,7 +236,7 @@
             this.dateTimePickerDateOfRelease.Location = new System.Drawing.Point(5, 253);
             this.dateTimePickerDateOfRelease.Name = "dateTimePickerDateOfRelease";
             this.dateTimePickerDateOfRelease.Size = new System.Drawing.Size(389, 23);
-            this.dateTimePickerDateOfRelease.TabIndex = 7;
+            this.dateTimePickerDateOfRelease.TabIndex = 4;
             // 
             // labelDateOfRelease
             // 
@@ -251,6 +271,7 @@
             this.textBoxName.Name = "textBoxName";
             this.textBoxName.Size = new System.Drawing.Size(389, 23);
             this.textBoxName.TabIndex = 1;
+            this.textBoxName.Leave += new System.EventHandler(this.OnLostFocus);
             // 
             // labelName
             // 
@@ -277,24 +298,7 @@
             this.dataGridView.RowTemplate.Height = 25;
             this.dataGridView.Size = new System.Drawing.Size(778, 732);
             this.dataGridView.TabIndex = 2;
-            // 
-            // numericBoxHp
-            // 
-            this.numericBoxHp.DoubleValue = null;
-            this.numericBoxHp.IntValue = null;
-            this.numericBoxHp.Location = new System.Drawing.Point(6, 117);
-            this.numericBoxHp.Name = "numericBoxHp";
-            this.numericBoxHp.Size = new System.Drawing.Size(388, 23);
-            this.numericBoxHp.TabIndex = 15;
-            // 
-            // numericBoxMana
-            // 
-            this.numericBoxMana.DoubleValue = null;
-            this.numericBoxMana.IntValue = null;
-            this.numericBoxMana.Location = new System.Drawing.Point(5, 186);
-            this.numericBoxMana.Name = "numericBoxMana";
-            this.numericBoxMana.Size = new System.Drawing.Size(388, 23);
-            this.numericBoxMana.TabIndex = 16;
+            this.dataGridView.SelectionChanged += new System.EventHandler(this.OnDataGridViewSelectionChanged);
             // 
             // MainForm
             // 

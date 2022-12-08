@@ -97,7 +97,7 @@ public partial class MainForm : Form
         numericBoxMana.IntValue = null;
         //numericBoxMana.Text = string.Empty;
         dateTimePickerDateOfRelease.Value = DateTime.Now.Date;
-        comboBoxRole.SelectedValue = 0;
+        comboBoxRole.SelectedIndex = 0;
     }
 
     private ChampionViewModel CollectData()
@@ -134,11 +134,21 @@ public partial class MainForm : Form
             return;
         }
 
+        using AppDbContext context = new AppDbContext();
+        bool isChampionWithTheSameNameExists = context.Champions.Any(x => x.Name.ToLower() == model.Name.ToLower());
+        if (isChampionWithTheSameNameExists)
+        {
+            MessageBox.Show($"{model.Name} nevû hõs már létezik.", "Figyelem", MessageBoxButtons.OK);
+
+            textBoxName.Focus();
+
+            return;
+        }
 
         //mentés
         Champion champion = model.ToDbEntity();
 
-        using AppDbContext context = new AppDbContext();
+        
         context.Champions.Add(champion);
         context.SaveChanges();      
 
@@ -184,9 +194,11 @@ public partial class MainForm : Form
 
     private void OnAddClick(object sender, EventArgs e)
     {
+        ClearForm();
         action = AddNewChampion;//Az action function pointer megkapja az AddNewChampion memoriacímet, de nem hajtja végre (nincs a végén a ()-el csak ';' kell)
         formGroup.Enabled = true;
-        toolStrip.Enabled = true;
+        toolStrip.Enabled = false;
+        dataGridView.Enabled = false;
     }
 
     private void onUpdateClick(object sender, EventArgs e)
@@ -203,7 +215,7 @@ public partial class MainForm : Form
 
         action = UpdateChampion;//Az action function pointer megkapja az UpdateChampion memoriacímet, de nem hajtja végre (nincs a végén a ()-el csak ';' kell)
         formGroup.Enabled = true;
-        toolStrip.Enabled = true;
+        toolStrip.Enabled = false;
     }
 
     private void OnDeleteClick(object sender, EventArgs e)
@@ -246,6 +258,26 @@ public partial class MainForm : Form
 
         toolStrip.Enabled = true;
         formGroup.Enabled = false;
+    }
+
+    private void OnLostFocus(object sender, EventArgs e)
+    {
+        ChampionViewModel model = CollectData();
+
+        ModelValidationResult validationResult = model.Validate();
+        ShowErrors(validationResult.Errors);
+    }
+
+    private void OnDataGridViewSelectionChanged(object sender, EventArgs e)
+    {
+        ChampionViewModel model = (ChampionViewModel)adapter.Current;
+
+        if (model is null)
+        {
+            return;
+        }
+
+        PopulateForm(model);
     }
 
     #endregion
