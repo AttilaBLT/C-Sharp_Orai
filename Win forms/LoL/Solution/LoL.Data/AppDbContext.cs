@@ -5,9 +5,17 @@ public class AppDbContext:DbContext
     public DbSet<Champion> Champions { get; set; }
     public DbSet<Role> Roles { get; set; }
 
+    private static string connectionString = string.Empty;
+
+    static AppDbContext()
+    {
+        connectionString = GetConnectionString();
+    }
+
+    //@"Server=(LocalDB)\MSSQLLocalDB;Database=LoLDB;Trusted_Connection=True;TrustServerCertificate=True"
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer(@"Server=(LocalDB)\MSSQLLocalDB;Database=LoLDB;Trusted_Connection=True;TrustServerCertificate=True");
+        optionsBuilder.UseSqlServer(connectionString);
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -26,6 +34,20 @@ public class AppDbContext:DbContext
         };
 
         modelBuilder.Entity<Role>().HasData(roles);
+    }
+
+    private static string GetConnectionString()
+    {
+        string jsonFile = Debugger.IsAttached ?
+                            "appsettings.development.json" :
+                            "apssettings.production.json";
+
+        ConfigurationBuilder builder = new ConfigurationBuilder();
+        builder.AddJsonFile(jsonFile);
+        IConfiguration configuration = builder.Build();
+
+        var databaseSettings = configuration.GetRequiredSection(nameof(DatabaseSettings)).Get<DatabaseSettings>();
+        return databaseSettings.ConnectionString;
     }
 }
 //adatbázisnál migrálás kell

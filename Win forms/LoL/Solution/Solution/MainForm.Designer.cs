@@ -36,7 +36,10 @@
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.buttonDelete = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+            this.searchBox = new System.Windows.Forms.ToolStripTextBox();
+            this.labelSearch = new System.Windows.Forms.ToolStripLabel();
             this.formGroup = new System.Windows.Forms.GroupBox();
+            this.labelRoleError = new System.Windows.Forms.Label();
             this.numericBoxMana = new LoL.UI.CustomControls.NumericBox();
             this.numericBoxHp = new LoL.UI.CustomControls.NumericBox();
             this.labelManaError = new System.Windows.Forms.Label();
@@ -66,7 +69,9 @@
             this.buttonUpdate,
             this.toolStripSeparator2,
             this.buttonDelete,
-            this.toolStripSeparator3});
+            this.toolStripSeparator3,
+            this.searchBox,
+            this.labelSearch});
             this.toolStrip.Location = new System.Drawing.Point(0, 0);
             this.toolStrip.Name = "toolStrip";
             this.toolStrip.Size = new System.Drawing.Size(1184, 25);
@@ -118,11 +123,26 @@
             this.toolStripSeparator3.Name = "toolStripSeparator3";
             this.toolStripSeparator3.Size = new System.Drawing.Size(6, 25);
             // 
+            // searchBox
+            // 
+            this.searchBox.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.searchBox.Name = "searchBox";
+            this.searchBox.Size = new System.Drawing.Size(150, 25);
+            this.searchBox.KeyUp += new System.Windows.Forms.KeyEventHandler(this.OnSearchKeyUp);
+            // 
+            // labelSearch
+            // 
+            this.labelSearch.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.labelSearch.Name = "labelSearch";
+            this.labelSearch.Size = new System.Drawing.Size(45, 22);
+            this.labelSearch.Text = "Search:";
+            // 
             // formGroup
             // 
             this.formGroup.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.formGroup.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.formGroup.Controls.Add(this.labelRoleError);
             this.formGroup.Controls.Add(this.numericBoxMana);
             this.formGroup.Controls.Add(this.numericBoxHp);
             this.formGroup.Controls.Add(this.labelManaError);
@@ -145,6 +165,15 @@
             this.formGroup.TabIndex = 1;
             this.formGroup.TabStop = false;
             this.formGroup.Text = "Champion Data";
+            // 
+            // labelRoleError
+            // 
+            this.labelRoleError.AutoSize = true;
+            this.labelRoleError.ForeColor = System.Drawing.Color.Red;
+            this.labelRoleError.Location = new System.Drawing.Point(8, 327);
+            this.labelRoleError.Name = "labelRoleError";
+            this.labelRoleError.Size = new System.Drawing.Size(0, 15);
+            this.labelRoleError.TabIndex = 15;
             // 
             // numericBoxMana
             // 
@@ -350,5 +379,8 @@
         private Label labelHpError;
         private LoL.UI.CustomControls.NumericBox numericBoxMana;
         private LoL.UI.CustomControls.NumericBox numericBoxHp;
+        private Label labelRoleError;
+        private ToolStripTextBox searchBox;
+        private ToolStripLabel labelSearch;
     }
 }

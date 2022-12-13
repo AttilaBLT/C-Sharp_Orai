@@ -9,3 +9,6 @@ global using System.ComponentModel.DataAnnotations.Schema;
 global using Microsoft.EntityFrameworkCore;
 global using LoL.Data.Entities;
 global using LoL.Data;
+global using LoL.Data.Settings;
+global using Microsoft.Extensions.Configuration;
+global using System.Diagnostics;

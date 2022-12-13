@@ -11,7 +11,6 @@ global using LoL.Data.Entities;
 global using LoL.Data;
 global using LoL.UI.ViewModels;
 global using System.Configuration;
-global using LoL.Data.Entities;
 global using LoL.UI.Extensions;
 global using System.Security.Cryptography.X509Certificates;
 global using static LoL.UI.Extensions.ObjectExtensions;

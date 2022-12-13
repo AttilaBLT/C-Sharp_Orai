@@ -19,6 +19,7 @@ public class ChampionViewModel
     public DateTime DateOfRelease { get; set; }
 
     [Required]
+    [Range(1, 5, ErrorMessage = "Please select a role!")]
     public int RoleId { get; set; }
 
     [Required]

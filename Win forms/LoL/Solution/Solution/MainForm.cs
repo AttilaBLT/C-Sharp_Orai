@@ -75,7 +75,12 @@ public partial class MainForm : Form
     private void PopulateRoleComboBox()
     {
         using AppDbContext context = new AppDbContext();
-        comboBoxRole.DataSource = context.Roles.ToList();
+
+        List<Role> roles = context.Roles.ToList();
+        roles.Insert(0, new Role { Id = 0, Name = "Please select a role!" });
+
+
+        comboBoxRole.DataSource = roles;
         comboBoxRole.DisplayMember = "Name";
         comboBoxRole.ValueMember = "Id";
     }
@@ -98,6 +103,21 @@ public partial class MainForm : Form
         //numericBoxMana.Text = string.Empty;
         dateTimePickerDateOfRelease.Value = DateTime.Now.Date;
         comboBoxRole.SelectedIndex = 0;
+
+
+    }
+
+    private void ClearErrorMessages(Control control)
+    {
+        IEnumerable<Label> labelControls = control.Controls.OfType<Label>();
+
+        foreach (var label in labelControls)
+        {
+            if (label.Name.ToLower().Contains("error"))
+            {
+                label.Text = string.Empty;
+            }
+        }
     }
 
     private ChampionViewModel CollectData()
@@ -118,6 +138,7 @@ public partial class MainForm : Form
         labelNameError.Text = errors.GetValueOrDefault("Name");
         labelHpError.Text = errors.GetValueOrDefault("Hp");
         labelManaError.Text = errors.GetValueOrDefault("Mana");
+        labelRoleError.Text = errors.GetValueOrDefault("RoleId");
     }
 
     private void AddNewChampion()
@@ -211,9 +232,8 @@ public partial class MainForm : Form
         }
         PopulateForm(model);
 
-
-
         action = UpdateChampion;//Az action function pointer megkapja az UpdateChampion memoriacímet, de nem hajtja végre (nincs a végén a ()-el csak ';' kell)
+        ClearForm();
         formGroup.Enabled = true;
         toolStrip.Enabled = false;
     }
@@ -258,6 +278,8 @@ public partial class MainForm : Form
 
         toolStrip.Enabled = true;
         formGroup.Enabled = false;
+
+        ClearErrorMessages(formGroup);
     }
 
     private void OnLostFocus(object sender, EventArgs e)
@@ -278,6 +300,23 @@ public partial class MainForm : Form
         }
 
         PopulateForm(model);
+    }
+
+    private void OnSearchKeyUp(object sender, KeyEventArgs e)
+    {
+
+        if (searchBox.Text.Length < 3)
+        {
+            PopulateDataGridView();
+            return;
+        }
+
+
+        using AppDbContext context = new AppDbContext();
+        adapter.DataSource = context.Champions.Include(x => x.Role)
+                                              .Where(x => x.Name.ToLower().Contains(searchBox.Text.ToLower()))
+                                              .Select(x => new ChampionViewModel(x))
+                                              .ToList();
     }
 
     #endregion
