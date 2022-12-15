@@ -1,0 +1,14 @@
+C:\Users\sz2janatt\Desktop\c_#\C-Sharp_Orai\Win forms\Autókatalógus\Solution\Auto.Data\bin\Debug\net7.0\Auto.Data.deps.json
+C:\Users\sz2janatt\Desktop\c_#\C-Sharp_Orai\Win forms\Autókatalógus\Solution\Auto.Data\bin\Debug\net7.0\Auto.Data.runtimeconfig.json
+C:\Users\sz2janatt\Desktop\c_#\C-Sharp_Orai\Win forms\Autókatalógus\Solution\Auto.Data\bin\Debug\net7.0\Auto.Data.dll
+C:\Users\sz2janatt\Desktop\c_#\C-Sharp_Orai\Win forms\Autókatalógus\Solution\Auto.Data\bin\Debug\net7.0\Auto.Data.pdb
+C:\Users\sz2janatt\Desktop\c_#\C-Sharp_Orai\Win forms\Autókatalógus\Solution\Auto.Data\obj\Debug\net7.0\Auto.Data.csproj.AssemblyReference.cache
+C:\Users\sz2janatt\Desktop\c_#\C-Sharp_Orai\Win forms\Autókatalógus\Solution\Auto.Data\obj\Debug\net7.0\Auto.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sz2janatt\Desktop\c_#\C-Sharp_Orai\Win forms\Autókatalógus\Solution\Auto.Data\obj\Debug\net7.0\Auto.Data.AssemblyInfoInputs.cache
+C:\Users\sz2janatt\Desktop\c_#\C-Sharp_Orai\Win forms\Autókatalógus\Solution\Auto.Data\obj\Debug\net7.0\Auto.Data.AssemblyInfo.cs
+C:\Users\sz2janatt\Desktop\c_#\C-Sharp_Orai\Win forms\Autókatalógus\Solution\Auto.Data\obj\Debug\net7.0\Auto.Data.csproj.CoreCompileInputs.cache
+C:\Users\sz2janatt\Desktop\c_#\C-Sharp_Orai\Win forms\Autókatalógus\Solution\Auto.Data\obj\Debug\net7.0\Auto.Data.dll
+C:\Users\sz2janatt\Desktop\c_#\C-Sharp_Orai\Win forms\Autókatalógus\Solution\Auto.Data\obj\Debug\net7.0\refint\Auto.Data.dll
+C:\Users\sz2janatt\Desktop\c_#\C-Sharp_Orai\Win forms\Autókatalógus\Solution\Auto.Data\obj\Debug\net7.0\Auto.Data.pdb
+C:\Users\sz2janatt\Desktop\c_#\C-Sharp_Orai\Win forms\Autókatalógus\Solution\Auto.Data\obj\Debug\net7.0\Auto.Data.genruntimeconfig.cache
+C:\Users\sz2janatt\Desktop\c_#\C-Sharp_Orai\Win forms\Autókatalógus\Solution\Auto.Data\obj\Debug\net7.0\ref\Auto.Data.dll
