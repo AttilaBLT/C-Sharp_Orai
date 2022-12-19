@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sz2janatt\\Desktop\\c_#\\C-Sharp_Orai\\Win forms\\LoL\\Solution\\Solution\\LoL.UI.csproj": {}
+    "C:\\Users\\attil\\OneDrive\\Asztali gép\\c#\\C-Sharp_Orai\\Win forms\\LoL\\Solution\\Solution\\LoL.UI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sz2janatt\\Desktop\\c_#\\C-Sharp_Orai\\Win forms\\LoL\\Solution\\LoL.Data\\LoL.Data.csproj": {
+    "C:\\Users\\attil\\OneDrive\\Asztali gép\\c#\\C-Sharp_Orai\\Win forms\\LoL\\Solution\\LoL.Data\\LoL.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sz2janatt\\Desktop\\c_#\\C-Sharp_Orai\\Win forms\\LoL\\Solution\\LoL.Data\\LoL.Data.csproj",
+        "projectUniqueName": "C:\\Users\\attil\\OneDrive\\Asztali gép\\c#\\C-Sharp_Orai\\Win forms\\LoL\\Solution\\LoL.Data\\LoL.Data.csproj",
         "projectName": "LoL.Data",
-        "projectPath": "C:\\Users\\sz2janatt\\Desktop\\c_#\\C-Sharp_Orai\\Win forms\\LoL\\Solution\\LoL.Data\\LoL.Data.csproj",
-        "packagesPath": "C:\\Users\\sz2janatt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sz2janatt\\Desktop\\c_#\\C-Sharp_Orai\\Win forms\\LoL\\Solution\\LoL.Data\\obj\\",
+        "projectPath": "C:\\Users\\attil\\OneDrive\\Asztali gép\\c#\\C-Sharp_Orai\\Win forms\\LoL\\Solution\\LoL.Data\\LoL.Data.csproj",
+        "packagesPath": "C:\\Users\\attil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\attil\\OneDrive\\Asztali gép\\c#\\C-Sharp_Orai\\Win forms\\LoL\\Solution\\LoL.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\sz2janatt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\attil\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -112,20 +111,20 @@
         }
       }
     },
-    "C:\\Users\\sz2janatt\\Desktop\\c_#\\C-Sharp_Orai\\Win forms\\LoL\\Solution\\Solution\\LoL.UI.csproj": {
+    "C:\\Users\\attil\\OneDrive\\Asztali gép\\c#\\C-Sharp_Orai\\Win forms\\LoL\\Solution\\Solution\\LoL.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sz2janatt\\Desktop\\c_#\\C-Sharp_Orai\\Win forms\\LoL\\Solution\\Solution\\LoL.UI.csproj",
+        "projectUniqueName": "C:\\Users\\attil\\OneDrive\\Asztali gép\\c#\\C-Sharp_Orai\\Win forms\\LoL\\Solution\\Solution\\LoL.UI.csproj",
         "projectName": "LoL.UI",
-        "projectPath": "C:\\Users\\sz2janatt\\Desktop\\c_#\\C-Sharp_Orai\\Win forms\\LoL\\Solution\\Solution\\LoL.UI.csproj",
-        "packagesPath": "C:\\Users\\sz2janatt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sz2janatt\\Desktop\\c_#\\C-Sharp_Orai\\Win forms\\LoL\\Solution\\Solution\\obj\\",
+        "projectPath": "C:\\Users\\attil\\OneDrive\\Asztali gép\\c#\\C-Sharp_Orai\\Win forms\\LoL\\Solution\\Solution\\LoL.UI.csproj",
+        "packagesPath": "C:\\Users\\attil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\attil\\OneDrive\\Asztali gép\\c#\\C-Sharp_Orai\\Win forms\\LoL\\Solution\\Solution\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\sz2janatt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\attil\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -134,15 +133,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0-windows7.0": {
             "targetAlias": "net7.0-windows",
             "projectReferences": {
-              "C:\\Users\\sz2janatt\\Desktop\\c_#\\C-Sharp_Orai\\Win forms\\LoL\\Solution\\LoL.Data\\LoL.Data.csproj": {
-                "projectPath": "C:\\Users\\sz2janatt\\Desktop\\c_#\\C-Sharp_Orai\\Win forms\\LoL\\Solution\\LoL.Data\\LoL.Data.csproj"
+              "C:\\Users\\attil\\OneDrive\\Asztali gép\\c#\\C-Sharp_Orai\\Win forms\\LoL\\Solution\\LoL.Data\\LoL.Data.csproj": {
+                "projectPath": "C:\\Users\\attil\\OneDrive\\Asztali gép\\c#\\C-Sharp_Orai\\Win forms\\LoL\\Solution\\LoL.Data\\LoL.Data.csproj"
               }
             }
           }

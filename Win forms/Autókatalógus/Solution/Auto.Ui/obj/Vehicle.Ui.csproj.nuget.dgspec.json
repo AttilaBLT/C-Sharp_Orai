@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sz2janatt\\Desktop\\c_#\\C-Sharp_Orai\\Win forms\\Autókatalógus\\Solution\\Auto.Ui\\Vehicle.Ui.csproj": {}
+    "C:\\Users\\attil\\OneDrive\\Asztali gép\\c#\\C-Sharp_Orai\\Win forms\\Autókatalógus\\Solution\\Auto.Ui\\Vehicle.Ui.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sz2janatt\\Desktop\\c_#\\C-Sharp_Orai\\Win forms\\Autókatalógus\\Solution\\Auto.Data\\Vehicle.Data.csproj": {
+    "C:\\Users\\attil\\OneDrive\\Asztali gép\\c#\\C-Sharp_Orai\\Win forms\\Autókatalógus\\Solution\\Auto.Data\\Vehicle.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sz2janatt\\Desktop\\c_#\\C-Sharp_Orai\\Win forms\\Autókatalógus\\Solution\\Auto.Data\\Vehicle.Data.csproj",
+        "projectUniqueName": "C:\\Users\\attil\\OneDrive\\Asztali gép\\c#\\C-Sharp_Orai\\Win forms\\Autókatalógus\\Solution\\Auto.Data\\Vehicle.Data.csproj",
         "projectName": "Vehicle.Data",
-        "projectPath": "C:\\Users\\sz2janatt\\Desktop\\c_#\\C-Sharp_Orai\\Win forms\\Autókatalógus\\Solution\\Auto.Data\\Vehicle.Data.csproj",
-        "packagesPath": "C:\\Users\\sz2janatt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sz2janatt\\Desktop\\c_#\\C-Sharp_Orai\\Win forms\\Autókatalógus\\Solution\\Auto.Data\\obj\\",
+        "projectPath": "C:\\Users\\attil\\OneDrive\\Asztali gép\\c#\\C-Sharp_Orai\\Win forms\\Autókatalógus\\Solution\\Auto.Data\\Vehicle.Data.csproj",
+        "packagesPath": "C:\\Users\\attil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\attil\\OneDrive\\Asztali gép\\c#\\C-Sharp_Orai\\Win forms\\Autókatalógus\\Solution\\Auto.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\sz2janatt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\attil\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -112,20 +111,20 @@
         }
       }
     },
-    "C:\\Users\\sz2janatt\\Desktop\\c_#\\C-Sharp_Orai\\Win forms\\Autókatalógus\\Solution\\Auto.Ui\\Vehicle.Ui.csproj": {
+    "C:\\Users\\attil\\OneDrive\\Asztali gép\\c#\\C-Sharp_Orai\\Win forms\\Autókatalógus\\Solution\\Auto.Ui\\Vehicle.Ui.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sz2janatt\\Desktop\\c_#\\C-Sharp_Orai\\Win forms\\Autókatalógus\\Solution\\Auto.Ui\\Vehicle.Ui.csproj",
+        "projectUniqueName": "C:\\Users\\attil\\OneDrive\\Asztali gép\\c#\\C-Sharp_Orai\\Win forms\\Autókatalógus\\Solution\\Auto.Ui\\Vehicle.Ui.csproj",
         "projectName": "Vehicle.Ui",
-        "projectPath": "C:\\Users\\sz2janatt\\Desktop\\c_#\\C-Sharp_Orai\\Win forms\\Autókatalógus\\Solution\\Auto.Ui\\Vehicle.Ui.csproj",
-        "packagesPath": "C:\\Users\\sz2janatt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sz2janatt\\Desktop\\c_#\\C-Sharp_Orai\\Win forms\\Autókatalógus\\Solution\\Auto.Ui\\obj\\",
+        "projectPath": "C:\\Users\\attil\\OneDrive\\Asztali gép\\c#\\C-Sharp_Orai\\Win forms\\Autókatalógus\\Solution\\Auto.Ui\\Vehicle.Ui.csproj",
+        "packagesPath": "C:\\Users\\attil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\attil\\OneDrive\\Asztali gép\\c#\\C-Sharp_Orai\\Win forms\\Autókatalógus\\Solution\\Auto.Ui\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\sz2janatt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\attil\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -134,15 +133,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0-windows7.0": {
             "targetAlias": "net7.0-windows",
             "projectReferences": {
-              "C:\\Users\\sz2janatt\\Desktop\\c_#\\C-Sharp_Orai\\Win forms\\Autókatalógus\\Solution\\Auto.Data\\Vehicle.Data.csproj": {
-                "projectPath": "C:\\Users\\sz2janatt\\Desktop\\c_#\\C-Sharp_Orai\\Win forms\\Autókatalógus\\Solution\\Auto.Data\\Vehicle.Data.csproj"
+              "C:\\Users\\attil\\OneDrive\\Asztali gép\\c#\\C-Sharp_Orai\\Win forms\\Autókatalógus\\Solution\\Auto.Data\\Vehicle.Data.csproj": {
+                "projectPath": "C:\\Users\\attil\\OneDrive\\Asztali gép\\c#\\C-Sharp_Orai\\Win forms\\Autókatalógus\\Solution\\Auto.Data\\Vehicle.Data.csproj"
               }
             }
           }

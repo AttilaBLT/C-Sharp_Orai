@@ -12,3 +12,17 @@ C:\Users\sz2janatt\Desktop\c_#\C-Sharp_Orai\Win forms\LoL\Solution\LoL.Data\obj\
 C:\Users\sz2janatt\Desktop\c_#\C-Sharp_Orai\Win forms\LoL\Solution\LoL.Data\obj\Debug\net7.0\LoL.Data.pdb
 C:\Users\sz2janatt\Desktop\c_#\C-Sharp_Orai\Win forms\LoL\Solution\LoL.Data\obj\Debug\net7.0\LoL.Data.genruntimeconfig.cache
 C:\Users\sz2janatt\Desktop\c_#\C-Sharp_Orai\Win forms\LoL\Solution\LoL.Data\obj\Debug\net7.0\ref\LoL.Data.dll
+C:\Users\attil\OneDrive\Asztali gép\c#\C-Sharp_Orai\Win forms\LoL\Solution\LoL.Data\bin\Debug\net7.0\LoL.Data.deps.json
+C:\Users\attil\OneDrive\Asztali gép\c#\C-Sharp_Orai\Win forms\LoL\Solution\LoL.Data\bin\Debug\net7.0\LoL.Data.runtimeconfig.json
+C:\Users\attil\OneDrive\Asztali gép\c#\C-Sharp_Orai\Win forms\LoL\Solution\LoL.Data\bin\Debug\net7.0\LoL.Data.dll
+C:\Users\attil\OneDrive\Asztali gép\c#\C-Sharp_Orai\Win forms\LoL\Solution\LoL.Data\bin\Debug\net7.0\LoL.Data.pdb
+C:\Users\attil\OneDrive\Asztali gép\c#\C-Sharp_Orai\Win forms\LoL\Solution\LoL.Data\obj\Debug\net7.0\LoL.Data.csproj.AssemblyReference.cache
+C:\Users\attil\OneDrive\Asztali gép\c#\C-Sharp_Orai\Win forms\LoL\Solution\LoL.Data\obj\Debug\net7.0\LoL.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\attil\OneDrive\Asztali gép\c#\C-Sharp_Orai\Win forms\LoL\Solution\LoL.Data\obj\Debug\net7.0\LoL.Data.AssemblyInfoInputs.cache
+C:\Users\attil\OneDrive\Asztali gép\c#\C-Sharp_Orai\Win forms\LoL\Solution\LoL.Data\obj\Debug\net7.0\LoL.Data.AssemblyInfo.cs
+C:\Users\attil\OneDrive\Asztali gép\c#\C-Sharp_Orai\Win forms\LoL\Solution\LoL.Data\obj\Debug\net7.0\LoL.Data.csproj.CoreCompileInputs.cache
+C:\Users\attil\OneDrive\Asztali gép\c#\C-Sharp_Orai\Win forms\LoL\Solution\LoL.Data\obj\Debug\net7.0\LoL.Data.dll
+C:\Users\attil\OneDrive\Asztali gép\c#\C-Sharp_Orai\Win forms\LoL\Solution\LoL.Data\obj\Debug\net7.0\refint\LoL.Data.dll
+C:\Users\attil\OneDrive\Asztali gép\c#\C-Sharp_Orai\Win forms\LoL\Solution\LoL.Data\obj\Debug\net7.0\LoL.Data.pdb
+C:\Users\attil\OneDrive\Asztali gép\c#\C-Sharp_Orai\Win forms\LoL\Solution\LoL.Data\obj\Debug\net7.0\LoL.Data.genruntimeconfig.cache
+C:\Users\attil\OneDrive\Asztali gép\c#\C-Sharp_Orai\Win forms\LoL\Solution\LoL.Data\obj\Debug\net7.0\ref\LoL.Data.dll

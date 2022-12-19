@@ -1,4 +1,6 @@
-﻿namespace Vehicle.Data;
+﻿using Microsoft.EntityFrameworkCore;
+
+namespace Vehicle.Data;
 
 public class AppDbContext:DbContext
 {
@@ -6,11 +8,11 @@ public class AppDbContext:DbContext
 
     public DbSet<Fuel> Fuels { get; set; }
 
-    public DbSet<VehicleType> VehicelTypes { get; set; }
+    public DbSet<VehicleType> VehicleTypes { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer(@"Server=(LocalDB)\MSSQLLocalDB; Database=CarDB; Trusted_Connection=True;");
+       optionsBuilder.UseSqlServer(@"Server=.\sqlexpress; Database=CarDB; Trusted_Connection=True; TrustServerCertificate=True");
     }
 
     protected override void OnModelCreating(ModelBuilder modelbuilder)
@@ -32,13 +34,12 @@ public class AppDbContext:DbContext
         {
             new VehicleType{Id=1, Name="SUV"},
             new VehicleType{Id=2, Name="Cabriolet"},
-            new VehicleType{Id=3, Name="Estate Car"},
+            new VehicleType{Id=3, Name="Estate"},
             new VehicleType{Id=4, Name="Van"},
             new VehicleType{Id=5, Name="Coupe"},
             new VehicleType{Id=6, Name="Hatchback"},
         };
-
-        modelbuilder.Entity<VehicleType>().HasData(fuels);
+        modelbuilder.Entity<VehicleType>().HasData(VehicelTypes);
 
         #endregion
     }

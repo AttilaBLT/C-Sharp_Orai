@@ -17,7 +17,12 @@ public class Car
     public string Model { get; set; }
 
     [Required]
-    public DateTime DateOfRelease { get; set; }
+    [Range (1908, 2023)]
+    public int ProductionYear { get; set; }
+    
+    [Required]
+    [Range(0, int.MaxValue)]
+    public int CubicCapacity { get; set; }
 
     [Required]
     [ForeignKey("Fuel")]

@@ -1,4 +1,4 @@
-﻿namespace LoL.UI.CustomControls;
+﻿namespace Vehicle.Ui.CustomControls;
 
 public class NumericBox : TextBox
 {
@@ -6,16 +6,16 @@ public class NumericBox : TextBox
 
     public NumericBox()
     {
-        Text= string.Empty;
+        Text = string.Empty;
     }
 
     public int? IntValue
     {
-        get 
+        get
         {
             bool isNumber = int.TryParse(Text, cultureInfo, out int value);
 
-            return isNumber? value : null;
+            return isNumber ? value : null;
         }
         set
         {
@@ -43,9 +43,9 @@ public class NumericBox : TextBox
 
         char key = e.KeyChar;
 
-        if (!char.IsNumber(key) && key !=8 && key != 143 && key != 56 && key != 44 && key!= 46) 
+        if (!char.IsNumber(key) && key != 8 && key != 143 && key != 56 && key != 44 && key != 46)
         {
-            e.Handled= true;
-        }        
+            e.Handled = true;
+        }
     }
 }
