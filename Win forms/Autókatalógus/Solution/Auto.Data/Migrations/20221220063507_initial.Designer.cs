@@ -11,7 +11,7 @@ using Vehicle.Data;
 namespace Vehicle.Data.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20221219171042_initial")]
+    [Migration("20221220063507_initial")]
     partial class initial
     {
         /// <inheritdoc />

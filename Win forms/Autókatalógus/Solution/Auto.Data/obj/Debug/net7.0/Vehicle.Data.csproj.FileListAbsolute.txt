@@ -26,3 +26,17 @@ C:\Users\attil\OneDrive\Asztali gép\c#\C-Sharp_Orai\Win forms\Autókatalógus\S
 C:\Users\attil\OneDrive\Asztali gép\c#\C-Sharp_Orai\Win forms\Autókatalógus\Solution\Auto.Data\obj\Debug\net7.0\Vehicle.Data.pdb
 C:\Users\attil\OneDrive\Asztali gép\c#\C-Sharp_Orai\Win forms\Autókatalógus\Solution\Auto.Data\obj\Debug\net7.0\Vehicle.Data.genruntimeconfig.cache
 C:\Users\attil\OneDrive\Asztali gép\c#\C-Sharp_Orai\Win forms\Autókatalógus\Solution\Auto.Data\obj\Debug\net7.0\ref\Vehicle.Data.dll
+C:\Users\sz2janatt\Desktop\C#\C-Sharp_Orai\Win forms\Autókatalógus\Solution\Auto.Data\bin\Debug\net7.0\Vehicle.Data.deps.json
+C:\Users\sz2janatt\Desktop\C#\C-Sharp_Orai\Win forms\Autókatalógus\Solution\Auto.Data\bin\Debug\net7.0\Vehicle.Data.runtimeconfig.json
+C:\Users\sz2janatt\Desktop\C#\C-Sharp_Orai\Win forms\Autókatalógus\Solution\Auto.Data\bin\Debug\net7.0\Vehicle.Data.dll
+C:\Users\sz2janatt\Desktop\C#\C-Sharp_Orai\Win forms\Autókatalógus\Solution\Auto.Data\bin\Debug\net7.0\Vehicle.Data.pdb
+C:\Users\sz2janatt\Desktop\C#\C-Sharp_Orai\Win forms\Autókatalógus\Solution\Auto.Data\obj\Debug\net7.0\Vehicle.Data.csproj.AssemblyReference.cache
+C:\Users\sz2janatt\Desktop\C#\C-Sharp_Orai\Win forms\Autókatalógus\Solution\Auto.Data\obj\Debug\net7.0\Vehicle.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sz2janatt\Desktop\C#\C-Sharp_Orai\Win forms\Autókatalógus\Solution\Auto.Data\obj\Debug\net7.0\Vehicle.Data.AssemblyInfoInputs.cache
+C:\Users\sz2janatt\Desktop\C#\C-Sharp_Orai\Win forms\Autókatalógus\Solution\Auto.Data\obj\Debug\net7.0\Vehicle.Data.AssemblyInfo.cs
+C:\Users\sz2janatt\Desktop\C#\C-Sharp_Orai\Win forms\Autókatalógus\Solution\Auto.Data\obj\Debug\net7.0\Vehicle.Data.csproj.CoreCompileInputs.cache
+C:\Users\sz2janatt\Desktop\C#\C-Sharp_Orai\Win forms\Autókatalógus\Solution\Auto.Data\obj\Debug\net7.0\Vehicle.Data.dll
+C:\Users\sz2janatt\Desktop\C#\C-Sharp_Orai\Win forms\Autókatalógus\Solution\Auto.Data\obj\Debug\net7.0\refint\Vehicle.Data.dll
+C:\Users\sz2janatt\Desktop\C#\C-Sharp_Orai\Win forms\Autókatalógus\Solution\Auto.Data\obj\Debug\net7.0\Vehicle.Data.pdb
+C:\Users\sz2janatt\Desktop\C#\C-Sharp_Orai\Win forms\Autókatalógus\Solution\Auto.Data\obj\Debug\net7.0\Vehicle.Data.genruntimeconfig.cache
+C:\Users\sz2janatt\Desktop\C#\C-Sharp_Orai\Win forms\Autókatalógus\Solution\Auto.Data\obj\Debug\net7.0\ref\Vehicle.Data.dll

@@ -40,7 +40,18 @@ public partial class CarCatalog : Form
 
         comboBoxFuel.DataSource = fuels;
         comboBoxFuel.DisplayMember = "Name";
-        comboBoxFuel.ValueMember = "Id";        
+        comboBoxFuel.ValueMember = "Id";
+    }
+
+    private void PopulateFuelFilter()
+    {
+        using AppDbContext context = new AppDbContext();
+        List<Fuel> fuels = context.Fuels.ToList();
+        fuels.Insert(0, new Fuel { Id = 0, Name = "Please select a fuel type to filter!" });
+
+        comboBoxFilterFuel.DataSource = fuels;
+        comboBoxFilterFuel.DisplayMember = "Name";
+        comboBoxFilterFuel.ValueMember = "Id";
     }
 
     private void PopulateVehicleTypeComboBox()
@@ -153,6 +164,7 @@ public partial class CarCatalog : Form
         labelErrorManufacturer.Text = errors.GetValueOrDefault("Manufacturer");
         labelErrorModel.Text = errors.GetValueOrDefault("Model");
         labelErrorCubicCapacity.Text = errors.GetValueOrDefault("CubicCapacity");
+        labelErrorProductionYear.Text = errors.GetValueOrDefault("ProductionYear");
         labelErrorFuel.Text = errors.GetValueOrDefault("FuelId");
         labelErrorVehicleType.Text = errors.GetValueOrDefault("VehicleTypeId");
     }
@@ -286,6 +298,7 @@ public partial class CarCatalog : Form
 
         toolStrip1.Enabled = true;
         formGroup.Enabled = false;
+        dataGridView.Enabled = true;
 
         ClearErrorMessages(formGroup);
     }
@@ -329,4 +342,19 @@ public partial class CarCatalog : Form
                                              .Select(x => new CarViewModel(x))
                                              .ToList();
     }
+
+
+    //private void FilterByFuel(object sender, EventArgs e)
+    //{
+    //    if (comboBoxFilterFuel.SelectedIndex == 0)
+    //    {
+    //        PopulateFuelFilter();
+    //        return;
+    //    }
+
+    //    using AppDbContext context = new AppDbContext();
+    //    adapter.DataSource = context.Cars.Include(x => x.Fuel)
+    //        .Include(x => x.VehicleType)
+    //        .Where(x => x.Fuel)
+    //}
 }

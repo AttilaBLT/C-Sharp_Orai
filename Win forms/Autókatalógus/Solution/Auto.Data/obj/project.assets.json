@@ -3980,23 +3980,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\attil\\.nuget\\packages\\": {},
-    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\sz2janatt\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\attil\\OneDrive\\Asztali gép\\c#\\C-Sharp_Orai\\Win forms\\Autókatalógus\\Solution\\Auto.Data\\Vehicle.Data.csproj",
+      "projectUniqueName": "C:\\Users\\sz2janatt\\Desktop\\C#\\C-Sharp_Orai\\Win forms\\Autókatalógus\\Solution\\Auto.Data\\Vehicle.Data.csproj",
       "projectName": "Vehicle.Data",
-      "projectPath": "C:\\Users\\attil\\OneDrive\\Asztali gép\\c#\\C-Sharp_Orai\\Win forms\\Autókatalógus\\Solution\\Auto.Data\\Vehicle.Data.csproj",
-      "packagesPath": "C:\\Users\\attil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\attil\\OneDrive\\Asztali gép\\c#\\C-Sharp_Orai\\Win forms\\Autókatalógus\\Solution\\Auto.Data\\obj\\",
+      "projectPath": "C:\\Users\\sz2janatt\\Desktop\\C#\\C-Sharp_Orai\\Win forms\\Autókatalógus\\Solution\\Auto.Data\\Vehicle.Data.csproj",
+      "packagesPath": "C:\\Users\\sz2janatt\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sz2janatt\\Desktop\\C#\\C-Sharp_Orai\\Win forms\\Autókatalógus\\Solution\\Auto.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\attil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sz2janatt\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4005,6 +4005,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

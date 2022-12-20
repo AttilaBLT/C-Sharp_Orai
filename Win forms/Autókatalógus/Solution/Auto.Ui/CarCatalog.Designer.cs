@@ -28,13 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CarCatalog));
             this.formGroup = new System.Windows.Forms.GroupBox();
             this.labelErrorProductionYear = new System.Windows.Forms.Label();
-            this.labelErrorCC = new System.Windows.Forms.Label();
             this.numericBoxProductionYear = new Vehicle.Ui.CustomControls.NumericBox();
             this.buttonCancel = new System.Windows.Forms.Button();
             this.buttonSubmit = new System.Windows.Forms.Button();
@@ -64,6 +63,10 @@
             this.SearchBox = new System.Windows.Forms.ToolStripTextBox();
             this.toolStripLabel = new System.Windows.Forms.ToolStripLabel();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+            this.comboBoxFilterFuel = new System.Windows.Forms.ComboBox();
+            this.comboBoxFilterVehicleType = new System.Windows.Forms.ComboBox();
+            this.labelFilterVehicleType = new System.Windows.Forms.Label();
+            this.labelFilterFuel = new System.Windows.Forms.Label();
             this.formGroup.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             this.toolStrip1.SuspendLayout();
@@ -73,8 +76,11 @@
             // 
             this.formGroup.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
+            this.formGroup.Controls.Add(this.labelFilterFuel);
+            this.formGroup.Controls.Add(this.labelFilterVehicleType);
+            this.formGroup.Controls.Add(this.comboBoxFilterVehicleType);
+            this.formGroup.Controls.Add(this.comboBoxFilterFuel);
             this.formGroup.Controls.Add(this.labelErrorProductionYear);
-            this.formGroup.Controls.Add(this.labelErrorCC);
             this.formGroup.Controls.Add(this.numericBoxProductionYear);
             this.formGroup.Controls.Add(this.buttonCancel);
             this.formGroup.Controls.Add(this.buttonSubmit);
@@ -111,15 +117,6 @@
             this.labelErrorProductionYear.Size = new System.Drawing.Size(0, 15);
             this.labelErrorProductionYear.TabIndex = 30;
             // 
-            // labelErrorCC
-            // 
-            this.labelErrorCC.AutoSize = true;
-            this.labelErrorCC.ForeColor = System.Drawing.Color.Red;
-            this.labelErrorCC.Location = new System.Drawing.Point(9, 267);
-            this.labelErrorCC.Name = "labelErrorCC";
-            this.labelErrorCC.Size = new System.Drawing.Size(0, 15);
-            this.labelErrorCC.TabIndex = 29;
-            // 
             // numericBoxProductionYear
             // 
             this.numericBoxProductionYear.DoubleValue = null;
@@ -127,7 +124,7 @@
             this.numericBoxProductionYear.Location = new System.Drawing.Point(9, 172);
             this.numericBoxProductionYear.Name = "numericBoxProductionYear";
             this.numericBoxProductionYear.Size = new System.Drawing.Size(136, 23);
-            this.numericBoxProductionYear.TabIndex = 28;
+            this.numericBoxProductionYear.TabIndex = 3;
             // 
             // buttonCancel
             // 
@@ -165,7 +162,7 @@
             this.numericBoxCubicCapacity.Location = new System.Drawing.Point(9, 241);
             this.numericBoxCubicCapacity.Name = "numericBoxCubicCapacity";
             this.numericBoxCubicCapacity.Size = new System.Drawing.Size(136, 23);
-            this.numericBoxCubicCapacity.TabIndex = 24;
+            this.numericBoxCubicCapacity.TabIndex = 4;
             this.numericBoxCubicCapacity.Leave += new System.EventHandler(this.OnLostFocus);
             // 
             // labelCubicCapacity
@@ -193,7 +190,7 @@
             this.comboBoxVehicleType.Location = new System.Drawing.Point(9, 391);
             this.comboBoxVehicleType.Name = "comboBoxVehicleType";
             this.comboBoxVehicleType.Size = new System.Drawing.Size(199, 23);
-            this.comboBoxVehicleType.TabIndex = 19;
+            this.comboBoxVehicleType.TabIndex = 6;
             // 
             // labelVehicleType
             // 
@@ -220,7 +217,7 @@
             this.comboBoxFuel.Location = new System.Drawing.Point(9, 315);
             this.comboBoxFuel.Name = "comboBoxFuel";
             this.comboBoxFuel.Size = new System.Drawing.Size(199, 23);
-            this.comboBoxFuel.TabIndex = 16;
+            this.comboBoxFuel.TabIndex = 5;
             // 
             // labelFuel
             // 
@@ -255,7 +252,7 @@
             this.textBoxModel.Location = new System.Drawing.Point(9, 105);
             this.textBoxModel.Name = "textBoxModel";
             this.textBoxModel.Size = new System.Drawing.Size(136, 23);
-            this.textBoxModel.TabIndex = 4;
+            this.textBoxModel.TabIndex = 2;
             this.textBoxModel.Leave += new System.EventHandler(this.OnLostFocus);
             // 
             // labelModel
@@ -302,34 +299,34 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView.DefaultCellStyle = dataGridViewCellStyle5;
             this.dataGridView.Location = new System.Drawing.Point(414, 38);
             this.dataGridView.Name = "dataGridView";
             this.dataGridView.ReadOnly = true;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
             this.dataGridView.RowTemplate.Height = 25;
             this.dataGridView.Size = new System.Drawing.Size(633, 491);
             this.dataGridView.TabIndex = 1;
@@ -411,6 +408,40 @@
             this.toolStripSeparator3.Name = "toolStripSeparator3";
             this.toolStripSeparator3.Size = new System.Drawing.Size(6, 25);
             // 
+            // comboBoxFilterFuel
+            // 
+            this.comboBoxFilterFuel.FormattingEnabled = true;
+            this.comboBoxFilterFuel.Location = new System.Drawing.Point(269, 37);
+            this.comboBoxFilterFuel.Name = "comboBoxFilterFuel";
+            this.comboBoxFilterFuel.Size = new System.Drawing.Size(121, 23);
+            this.comboBoxFilterFuel.TabIndex = 31;
+            // 
+            // comboBoxFilterVehicleType
+            // 
+            this.comboBoxFilterVehicleType.FormattingEnabled = true;
+            this.comboBoxFilterVehicleType.Location = new System.Drawing.Point(269, 105);
+            this.comboBoxFilterVehicleType.Name = "comboBoxFilterVehicleType";
+            this.comboBoxFilterVehicleType.Size = new System.Drawing.Size(121, 23);
+            this.comboBoxFilterVehicleType.TabIndex = 32;
+            // 
+            // labelFilterVehicleType
+            // 
+            this.labelFilterVehicleType.AutoSize = true;
+            this.labelFilterVehicleType.Location = new System.Drawing.Point(273, 87);
+            this.labelFilterVehicleType.Name = "labelFilterVehicleType";
+            this.labelFilterVehicleType.Size = new System.Drawing.Size(119, 15);
+            this.labelFilterVehicleType.TabIndex = 33;
+            this.labelFilterVehicleType.Text = "Filter By Vehicle Type:";
+            // 
+            // labelFilterFuel
+            // 
+            this.labelFilterFuel.AutoSize = true;
+            this.labelFilterFuel.Location = new System.Drawing.Point(315, 19);
+            this.labelFilterFuel.Name = "labelFilterFuel";
+            this.labelFilterFuel.Size = new System.Drawing.Size(77, 15);
+            this.labelFilterFuel.TabIndex = 34;
+            this.labelFilterFuel.Text = "Filter By Fuel:";
+            // 
             // CarCatalog
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -466,8 +497,11 @@
         private Button buttonSubmit;
         private Button buttonCancel;
         private CustomControls.NumericBox numericBoxProductionYear;
-        private Label labelErrorCC;
         private Label labelErrorProductionYear;
         private ToolStripSeparator toolStripSeparator3;
+        private Label labelFilterFuel;
+        private Label labelFilterVehicleType;
+        private ComboBox comboBoxFilterVehicleType;
+        private ComboBox comboBoxFilterFuel;
     }
 }
