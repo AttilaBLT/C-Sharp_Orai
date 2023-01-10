@@ -1,11 +1,3 @@
-using Microsoft.EntityFrameworkCore;
-using System.Windows.Forms;
-using Vehicle.Data;
-using Vehicle.Data.Entities;
-using Vehicle.Ui.Extensions;
-using Vehicle.Ui.ViewModels;
-using static Vehicle.Ui.Extensions.ObjectExtensions;
-
 namespace Vehicle.Ui;
 
 public partial class CarCatalog : Form
@@ -41,17 +33,6 @@ public partial class CarCatalog : Form
         comboBoxFuel.DataSource = fuels;
         comboBoxFuel.DisplayMember = "Name";
         comboBoxFuel.ValueMember = "Id";
-    }
-
-    private void PopulateFuelFilter()
-    {
-        using AppDbContext context = new AppDbContext();
-        List<Fuel> fuels = context.Fuels.ToList();
-        fuels.Insert(0, new Fuel { Id = 0, Name = "Please select a fuel type to filter!" });
-
-        comboBoxFilterFuel.DataSource = fuels;
-        comboBoxFilterFuel.DisplayMember = "Name";
-        comboBoxFilterFuel.ValueMember = "Id";
     }
 
     private void PopulateVehicleTypeComboBox()
@@ -144,10 +125,11 @@ public partial class CarCatalog : Form
         }
     }
 
-    private CarViewModel CollectData()
+    private CarViewModel CollectData(int id = 0)
     {
         return new CarViewModel
         {
+            Id = id,
             Manufacturer = textBoxManufacturer.Text.Trim(),
             Model = textBoxModel.Text.Trim(),
             ProductionYear = numericBoxProductionYear.IntValue,
@@ -214,7 +196,7 @@ public partial class CarCatalog : Form
         using AppDbContext context = new AppDbContext();
         Car car = context.Cars.Find(model.Id);
 
-        model = CollectData();
+        model = CollectData(model.Id);
 
         ModelValidationResult validationResult = model.Validate();
         ShowErrors(validationResult.Errors);
@@ -342,19 +324,4 @@ public partial class CarCatalog : Form
                                              .Select(x => new CarViewModel(x))
                                              .ToList();
     }
-
-
-    //private void FilterByFuel(object sender, EventArgs e)
-    //{
-    //    if (comboBoxFilterFuel.SelectedIndex == 0)
-    //    {
-    //        PopulateFuelFilter();
-    //        return;
-    //    }
-
-    //    using AppDbContext context = new AppDbContext();
-    //    adapter.DataSource = context.Cars.Include(x => x.Fuel)
-    //        .Include(x => x.VehicleType)
-    //        .Where(x => x.Fuel)
-    //}
 }

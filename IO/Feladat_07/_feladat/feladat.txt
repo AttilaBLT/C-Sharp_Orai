@@ -1,0 +1,15 @@
+Az adatok.txt állományban az adatok a következő módón vannak tárolva:
+
+Vezetéknév,Keresztnév,Anya vezetékneve, Anya keresztneve		// Hapci,Henri,Palotás,Virag
+Születés időpont,Születés helye,Megye,Ország					// 1970.06.02,Békéscsaba,Békés Megye,Magyarország
+Utca,Házszám,Írányítószám,Város,Megye,Ország					// Jókai Mór utca,23,5600,Békéscsaba,Békés Megye,Magyarország
+Kategóriák														// AM,A,B
+
+Az egyes egésszek tabulátorral vannak elválasztva, az egésszek adatai pedig vesszővel.
+
+- Írjunk programot, mely menü segítségével lehetővé teszi a következő adatok kírását:
+- Írjuk ki a képernyőre az össz adatot a vezetőkről
+- A felhasználó álltal megagadott megyére a megye-vezetoi.txt állományba elmenti a megadott megyében lakó vezetőket.
+- A felhasználó álltal megagadott kategóriával rendelkező vezetőket a {kategoria nev}-kategoria.txt állományba menti el.
+- A fiatalok.txt álloményba kikeresi azokat a vezetőket akik 18 és 21 év közt vannak.
+- kulfoldi.txt állományba azokat a vezetőket keresi ki, akik nem Magyarországon születtek.

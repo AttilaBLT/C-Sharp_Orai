@@ -1,0 +1,8 @@
+﻿Hapci,Henri,Palotás,Virag	1978.08.11,Gyula,Békés Megye,Magyarország	Szőnyi köz,12,5700,Gyula,Békés Megye,Magyarország	AM,A,B
+Kőtörő,Vigor,Győri,Jázmin	1970.06.02,Békéscsaba,Békés Megye,Magyarország	Jókai Mór utca,23,5600,Békéscsaba,Békés Megye,Magyarország	B,C
+György,Dávid,László,Anita	2000.12.13,Törökkanizsa, ,Szerbia	Losonc János tér,17,4000,Szeged,Csongrád Megye,Magyarország	A2,B
+Hakan,Sükür,Konta,Barbara	1999.07.07,Ankara, ,Törökország	Babits tér,456,2000,Budapest,Pest Megye,Magyarország	A,B,C,E
+Skoworonska,Katarzyna,Dolata,Barbara	1977.06.13,Poznan, ,Lengyelország	Mátyás Király utca, 666,5700,Gyula,Békés Megye,Magyarország	B
+Tolvaj,Rezső,Répás,Gabriella	1966.06.06,Veszprém,Veszprém Megye, Magyarország	Budapesti út,56,4600,Tiszafüred,Veszprém Megye,Magyarország	B,C,E
+Barna,Barnabás,Somogyi,Gizella	1956.08.24,Sopron,Vas Megye,Magyarország	Bécsi út,23,3000,Sopron,Vas Megye,Magyarország	A
+Severina,Vučković,Ražnatović,Svetlana	1970.10.17,Zágráb, ,Horvátország	József Attila kürút, 1,7000,Kecskemét,Csongrád Megye,Magyarország	B
